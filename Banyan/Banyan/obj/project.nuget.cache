@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ig+HeGL+aFE=",
+  "success": true,
+  "projectFilePath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan\\Banyan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Office\\.nuget\\packages\\ligershark.weboptimizer.core\\3.0.477\\ligershark.weboptimizer.core.3.0.477.nupkg.sha512",
+    "C:\\Users\\Office\\.nuget\\packages\\nuglify\\1.21.15\\nuglify.1.21.15.nupkg.sha512"
+  ],
+  "logs": []
+}

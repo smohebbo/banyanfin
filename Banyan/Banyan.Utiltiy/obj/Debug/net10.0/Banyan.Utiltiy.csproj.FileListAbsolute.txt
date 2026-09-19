@@ -1,0 +1,11 @@
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.deps.json
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.AssemblyInfoInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.AssemblyInfo.cs
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.csproj.CoreCompileInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\refint\Banyan.Utiltiy.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\ref\Banyan.Utiltiy.dll

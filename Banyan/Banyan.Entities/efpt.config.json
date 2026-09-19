@@ -1,0 +1,274 @@
+﻿{
+   "CodeGenerationMode": 6,
+   "ContextClassName": "MCCCULContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "IrregularWords": null,
+   "MinimumProductVersion": "2.6.1706",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PluralRules": null,
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Banyan.Entities",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "SingularRules": null,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[acc].[AccountStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[AddressBook]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[District]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Division]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Mauza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[PauraShavaArea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[PostOffice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Union]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Upazila]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Village]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[Village2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[Client]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[ClientHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[ClientStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[IndividualDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[InstitutionDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[MemberProfile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[cl].[Profession]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[Department]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[Designation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[Employee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[EmployeeHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[GradeBand]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[JobGrade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[JobStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[Jobtype]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[mem].[MemberInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sav].[SavingsAccounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sav].[SavingsTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sav].[SavingsTransactionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sav].[settings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sec].[Privilege]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sec].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sec].[RolePrivilege]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sec].[Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ad].[AddressBookInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ad].[AddressBookUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[CreateIndividualClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[CreateInstitutionalClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[CreateMember]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[DeleteClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[RestoreClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[UpdateClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[VerifyClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[CreateEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[DeleteEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[RestoreEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[UpdateEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[VerifyEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[mintu].[find]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[mintu].[FindTableByContent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[mintu].[lookup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[mintu].[show]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sec].[AuthenticateUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sec].[DecryptToken]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false,
+   "UseTypedTvpParameters": true
+}

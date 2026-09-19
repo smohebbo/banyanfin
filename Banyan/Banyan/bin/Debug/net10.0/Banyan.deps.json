@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Banyan/1.0.0": {
+        "dependencies": {
+          "LigerShark.WebOptimizer.Core": "3.0.477"
+        },
+        "runtime": {
+          "Banyan.dll": {}
+        }
+      },
+      "LigerShark.WebOptimizer.Core/3.0.477": {
+        "dependencies": {
+          "NUglify": "1.21.15"
+        },
+        "runtime": {
+          "lib/net8.0/WebOptimizer.Core.dll": {
+            "assemblyVersion": "3.0.477.0",
+            "fileVersion": "3.0.477.0"
+          }
+        }
+      },
+      "NUglify/1.21.15": {
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "assemblyVersion": "1.21.15.0",
+            "fileVersion": "1.21.15.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Banyan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LigerShark.WebOptimizer.Core/3.0.477": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-md8zBJMIur8Hnb5jn7krSfe9I0BZUGqCxwh2A5Y1MTR7wtY6v9gYuyW5EFNCYzQCvaaAZxlTynUk8ZsIsrBXsg==",
+      "path": "ligershark.weboptimizer.core/3.0.477",
+      "hashPath": "ligershark.weboptimizer.core.3.0.477.nupkg.sha512"
+    },
+    "NUglify/1.21.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vxwg0EjbM/gmILPtzfmzlf0MDu9a17OQb8b57oTgoHoRsZNHWIFQFa00Izcvuam3Hbw2eH272TfczDRHSXgSlA==",
+      "path": "nuglify/1.21.15",
+      "hashPath": "nuglify.1.21.15.nupkg.sha512"
+    }
+  }
+}

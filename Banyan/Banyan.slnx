@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Banyan.Data/Banyan.Data.csproj" Id="fb230037-9c70-4003-a990-cf2d43d3263b" />
+  <Project Path="Banyan.Entities/Banyan.Entities.csproj" />
+  <Project Path="Banyan.IOC/Banyan.IOC.csproj" Id="0ffcb0f2-184b-487a-9d54-d3fe8ff8fb92" />
+  <Project Path="Banyan.Repository/Banyan.Repository.csproj" Id="a73401fe-e7ce-4a5a-86f9-0fe27dc1728a" />
+  <Project Path="Banyan.Service/Banyan.Service.csproj" Id="8d4a1d8b-ae42-44fa-b6e0-bd3b5677e2fb" />
+  <Project Path="Banyan.Utiltiy/Banyan.Utiltiy.csproj" Id="f2e0d1f2-af6a-4a0e-bbf6-d67c6c7a9694" />
+  <Project Path="Banyan/Banyan.csproj" />
+</Solution>
