@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0mOXZQkdeSs=",
+  "dgSpecHash": "xuOi/aujXeY=",
   "success": true,
-  "projectFilePath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan\\Banyan.csproj",
+  "projectFilePath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan\\Banyan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Office\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Office\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

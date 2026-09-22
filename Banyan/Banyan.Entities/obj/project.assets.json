@@ -3898,11 +3898,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
+      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
       "projectName": "Banyan.Entities",
-      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
+      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
       "packagesPath": "C:\\Users\\Office\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\obj\\",
+      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

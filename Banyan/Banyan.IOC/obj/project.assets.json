@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.IOC\\Banyan.IOC.csproj",
+      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.IOC\\Banyan.IOC.csproj",
       "projectName": "Banyan.IOC",
-      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.IOC\\Banyan.IOC.csproj",
+      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.IOC\\Banyan.IOC.csproj",
       "packagesPath": "C:\\Users\\Office\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.IOC\\obj\\",
+      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

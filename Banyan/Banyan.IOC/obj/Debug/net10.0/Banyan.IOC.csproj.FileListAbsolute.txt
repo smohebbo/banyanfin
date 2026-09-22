@@ -9,3 +9,15 @@ D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.IOC\obj\Debug\net
 D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.IOC\obj\Debug\net10.0\refint\Banyan.IOC.dll
 D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.pdb
 D:\Development\C sharp\Mothbari\BanyanFin\source\Banyan\Banyan.IOC\obj\Debug\net10.0\ref\Banyan.IOC.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\bin\Debug\net10.0\Banyan.IOC.deps.json
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\bin\Debug\net10.0\Banyan.IOC.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\bin\Debug\net10.0\Banyan.IOC.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.AssemblyInfoInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.AssemblyInfo.cs
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.csproj.CoreCompileInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.sourcelink.json
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\refint\Banyan.IOC.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\Banyan.IOC.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.IOC\obj\Debug\net10.0\ref\Banyan.IOC.dll

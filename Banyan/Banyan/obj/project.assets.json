@@ -1429,11 +1429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan\\Banyan.csproj",
+      "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan\\Banyan.csproj",
       "projectName": "Banyan",
-      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan\\Banyan.csproj",
+      "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan\\Banyan.csproj",
       "packagesPath": "C:\\Users\\Office\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan\\obj\\",
+      "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1455,8 +1455,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {
-              "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj"
+            "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {
+              "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj"
             }
           }
         }

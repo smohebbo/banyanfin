@@ -1,0 +1,98 @@
+﻿<header class="bg-dark text-white" style="height: 60px;">
+    <div class="container-fluid h-100">
+        <div class="d-flex align-items-center justify-content-between h-100 px-3">
+
+            @* Logo *@
+            <a asp-controller="Home"
+               asp-action="Index"
+               class="text-decoration-none text-white d-flex align-items-center">
+
+                <div class="bg-info rounded-2 d-flex align-items-center justify-content-center me-2"
+                     style="width: 36px; height: 36px;">
+                    <span class="fw-bold text-dark fs-5">M</span>
+                </div>
+
+                <span class="fw-bold fs-5">
+                    MyApp
+                </span>
+            </a>
+
+
+            @* User Dropdown *@
+            <div class="dropdown">
+
+                <button class="btn btn-link text-white text-decoration-none
+                               d-flex align-items-center gap-2 p-0 border-0"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                    @* User Photo *@
+                    <img src="~/images/user-avatar.png"
+                         alt="User"
+                         width="38"
+                         height="38"
+                         class="rounded-circle border border-2 border-light object-fit-cover">
+
+                    @* User Name *@
+                    <span class="d-none d-md-inline fw-semibold">
+                        John Doe
+                    </span>
+
+                    <span class="dropdown-toggle"></span>
+
+                </button>
+
+
+                @* Dropdown Menu *@
+                <ul class="dropdown-menu dropdown-menu-end shadow">
+
+                    <li>
+                        <a class="dropdown-item"
+                           asp-controller="Account"
+                           asp-action="Profile">
+                            👤 &nbsp; Profile
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item"
+                           asp-controller="Account"
+                           asp-action="Settings">
+                            ⚙️ &nbsp; Settings
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item"
+                           asp-controller="Account"
+                           asp-action="ChangePassword">
+                            🔒 &nbsp; Change Password
+                        </a>
+                    </li>
+
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <form asp-controller="Account"
+                              asp-action="Logout"
+                              method="post">
+
+                            <button type="submit"
+                                    class="dropdown-item text-danger">
+                                🚪 &nbsp; Logout
+                            </button>
+
+                        </form>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+
