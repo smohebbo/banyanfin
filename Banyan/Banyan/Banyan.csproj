@@ -14,4 +14,8 @@
     <Compile Include="wwwroot\WebOptimizerConfig.cs" Link="WebOptimizerConfig.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Banyan.Entities\Banyan.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,3 +1,4 @@
+using Banyan.Entities.viewModel;
 using Banyan.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -8,7 +9,8 @@ namespace Banyan.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var loginViewModel = new loginViewModel();
+            return View(loginViewModel);
         }
 
         public IActionResult Privacy()

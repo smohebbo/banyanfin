@@ -1,0 +1,528 @@
+﻿<nav class="d-flex flex-column flex-shrink-0 p-3 text-white"
+     style="width: 280px; min-height: 100vh; background-color: #123B5D;">
+
+    <!-- Brand -->
+    <a asp-controller="Dashboard"
+       asp-action="Index"
+       class="d-flex align-items-center mb-3 text-white text-decoration-none">
+        <i class="fa-solid fa-building-columns fs-4 me-2"></i>
+        <span class="fs-5 fw-semibold">Cooperative Banking</span>
+    </a>
+
+    <hr class="border-light opacity-25">
+
+    <div class="overflow-auto flex-grow-1">
+
+        <!-- Dashboard -->
+        <ul class="nav nav-pills flex-column mb-3">
+            <li class="nav-item">
+                <a asp-controller="Dashboard"
+                   asp-action="Index"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-gauge-high fa-fw me-2"></i>
+                    Dashboard
+                </a>
+            </li>
+        </ul>
+
+
+        <!-- Members -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Members
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="Members"
+                   asp-action="Index"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-users fa-fw me-2"></i>
+                    Member Search / Directory
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Members"
+                   asp-action="Create"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-user-plus fa-fw me-2"></i>
+                    New Member
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Members"
+                   asp-action="Profile"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-id-card fa-fw me-2"></i>
+                    Member Profile
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Members"
+                   asp-action="ChangeStatus"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-user-gear fa-fw me-2"></i>
+                    Change Status
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Savings -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Savings
+        </div>
+
+        <div class="accordion accordion-flush mb-3" id="savingsMenu">
+
+            <!-- General Savings -->
+            <div class="accordion-item bg-transparent border-0">
+
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-transparent text-white shadow-none px-2 py-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#generalSavings">
+
+                        <i class="fa-solid fa-piggy-bank fa-fw me-2"></i>
+                        General Savings
+
+                    </button>
+                </h2>
+
+                <div id="generalSavings"
+                     class="accordion-collapse collapse">
+
+                    <div class="ps-3">
+
+                        <a asp-controller="Savings"
+                           asp-action="Deposit"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-circle-arrow-down fa-fw me-2"></i>
+                            Deposit
+                        </a>
+
+                        <a asp-controller="Savings"
+                           asp-action="Withdraw"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-circle-arrow-up fa-fw me-2"></i>
+                            Withdraw
+                        </a>
+
+                        <a asp-controller="Savings"
+                           asp-action="OpenAccount"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-folder-plus fa-fw me-2"></i>
+                            Open Account
+                        </a>
+
+                        <a asp-controller="Savings"
+                           asp-action="Statement"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-file-invoice-dollar fa-fw me-2"></i>
+                            Statement
+                        </a>
+
+                        <a asp-controller="Savings"
+                           asp-action="Holds"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-lock fa-fw me-2"></i>
+                            Holds — Place / Release
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Fixed Deposits -->
+            <div class="accordion-item bg-transparent border-0">
+
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-transparent text-white shadow-none px-2 py-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#fixedDeposits">
+
+                        <i class="fa-solid fa-vault fa-fw me-2"></i>
+                        Fixed Deposits
+
+                    </button>
+                </h2>
+
+                <div id="fixedDeposits"
+                     class="accordion-collapse collapse">
+
+                    <div class="ps-3">
+
+                        <a asp-controller="FixedDeposits"
+                           asp-action="Open"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-folder-plus fa-fw me-2"></i>
+                            Open
+                        </a>
+
+                        <a asp-controller="FixedDeposits"
+                           asp-action="MaturityQueue"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-list-check fa-fw me-2"></i>
+                            Maturity Queue
+                        </a>
+
+                        <a asp-controller="FixedDeposits"
+                           asp-action="ClosePayout"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-money-bill-transfer fa-fw me-2"></i>
+                            Close / Payout
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Term Deposits -->
+            <div class="accordion-item bg-transparent border-0">
+
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-transparent text-white shadow-none px-2 py-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#termDeposits">
+
+                        <i class="fa-solid fa-calendar-days fa-fw me-2"></i>
+                        Term Deposits
+
+                    </button>
+                </h2>
+
+                <div id="termDeposits"
+                     class="accordion-collapse collapse">
+
+                    <div class="ps-3">
+
+                        <a asp-controller="TermDeposits"
+                           asp-action="Open"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-folder-plus fa-fw me-2"></i>
+                            Open
+                        </a>
+
+                        <a asp-controller="TermDeposits"
+                           asp-action="PayoutSchedule"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-calendar-check fa-fw me-2"></i>
+                            Payout Schedule
+                        </a>
+
+                        <a asp-controller="TermDeposits"
+                           asp-action="Close"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-circle-xmark fa-fw me-2"></i>
+                            Close
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Loans -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Loans
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="Loans"
+                   asp-action="NewApplication"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-file-circle-plus fa-fw me-2"></i>
+                    New Application
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Loans"
+                   asp-action="CommitteeReview"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-people-group fa-fw me-2"></i>
+                    Committee Review Queue
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Loans"
+                   asp-action="Disbursement"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-money-bill-trend-up fa-fw me-2"></i>
+                    Disbursement
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Loans"
+                   asp-action="Collection"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-hand-holding-dollar fa-fw me-2"></i>
+                    Collection
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Loans"
+                   asp-action="Closure"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-file-circle-check fa-fw me-2"></i>
+                    Loan Closure
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Cash & Teller -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Cash &amp; Teller
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="CashTeller"
+                   asp-action="DenominationEntry"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-coins fa-fw me-2"></i>
+                    Denomination Entry
+                    <span class="small text-white-50">(End of Day)</span>
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="CashTeller"
+                   asp-action="CashBalancing"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-scale-balanced fa-fw me-2"></i>
+                    Cash Balancing
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Cheque Book -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Cheque Book
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="ChequeBook"
+                   asp-action="Stock"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-boxes-stacked fa-fw me-2"></i>
+                    Stock
+                    <span class="small text-white-50">(Received from Bank)</span>
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="ChequeBook"
+                   asp-action="Issue"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-money-check fa-fw me-2"></i>
+                    Issue Cheque Book
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="ChequeBook"
+                   asp-action="ClearanceStatus"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-money-check-dollar fa-fw me-2"></i>
+                    Clearance Status
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Accounting -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Accounting
+        </div>
+
+        <div class="accordion accordion-flush mb-3" id="accountingMenu">
+
+            <div class="accordion-item bg-transparent border-0">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed bg-transparent text-white shadow-none px-2 py-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#accountingItems">
+
+                        <i class="fa-solid fa-calculator fa-fw me-2"></i>
+                        Accounting
+
+                    </button>
+
+                </h2>
+
+                <div id="accountingItems"
+                     class="accordion-collapse collapse">
+
+                    <div class="ps-3">
+
+                        <a asp-controller="Accounting"
+                           asp-action="ChartOfAccounts"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-sitemap fa-fw me-2"></i>
+                            Chart of Accounts
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="JournalVouchers"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-file-invoice fa-fw me-2"></i>
+                            Journal Vouchers
+                            <span class="small text-white-50">(JV / CPV / CRV / Bank)</span>
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="TrialBalance"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-scale-unbalanced fa-fw me-2"></i>
+                            Trial Balance
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="ProfitLoss"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-chart-line fa-fw me-2"></i>
+                            Profit &amp; Loss
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="BalanceSheet"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-table-columns fa-fw me-2"></i>
+                            Balance Sheet
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="CashFlow"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-money-bill-transfer fa-fw me-2"></i>
+                            Cash Flow Statement
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="DayBook"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-book-open fa-fw me-2"></i>
+                            Day Book
+                        </a>
+
+                        <a asp-controller="Accounting"
+                           asp-action="MemberLedger"
+                           class="nav-link text-white">
+                            <i class="fa-solid fa-book fa-fw me-2"></i>
+                            Member Ledger
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Period Close -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Period Close
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="PeriodClose"
+                   asp-action="DayOpenClose"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-calendar-day fa-fw me-2"></i>
+                    Day Open / Day Close
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="PeriodClose"
+                   asp-action="MonthClose"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-calendar-days fa-fw me-2"></i>
+                    Month Close
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="PeriodClose"
+                   asp-action="YearClose"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-calendar-check fa-fw me-2"></i>
+                    Year Close
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Administration -->
+        <div class="text-uppercase small fw-semibold text-white-50 px-2 mb-1">
+            Administration
+        </div>
+
+        <ul class="nav nav-pills flex-column mb-3">
+
+            <li>
+                <a asp-controller="Administration"
+                   asp-action="Employees"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-user-tie fa-fw me-2"></i>
+                    Employees
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Administration"
+                   asp-action="RolesPermissions"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-user-shield fa-fw me-2"></i>
+                    Roles &amp; Permissions
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Administration"
+                   asp-action="NotificationLog"
+                   class="nav-link text-white">
+                    <i class="fa-solid fa-bell fa-fw me-2"></i>
+                    Notification Log
+                    <span class="small text-white-50">(SMS queue status)</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+

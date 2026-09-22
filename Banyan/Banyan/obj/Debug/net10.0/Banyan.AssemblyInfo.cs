@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Banyan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e6d3fec0f13c673543a24ad21a2133814a7eb39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Banyan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Banyan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
