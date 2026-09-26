@@ -9,7 +9,7 @@ namespace Banyan.Repository
     public interface IRepositoryBase<TEntity> : ITrackableRepository<TEntity> where TEntity : class, ITrackable
     {
         // Example: adding synchronous Find, scope: application wide for all repositories
-        //TEntity Find(object[] keyValues, CancellationToken cancellationToken);
+        TEntity Find(object[] keyValues, CancellationToken cancellationToken);
         //Task<List<T>> CreateQueryAsync<T>(string sql, CancellationToken cancellationToken);
     }
 
@@ -23,11 +23,10 @@ namespace Banyan.Repository
             //_urfContext = urfContext;//Don't use urfContext when inherit. URF has Own "Context" use that
         }
         // Example: adding synchronous Find, scope: application-wide
-        /*public TEntity Find(object[] keyValues, CancellationToken cancellationToken)
+        public TEntity Find(object[] keyValues, CancellationToken cancellationToken)
         {
-
             return this.Context.Find<TEntity>(keyValues) as TEntity;
-        }*/
+        }
         /*public async Task<List<T>> CreateQueryAsync<T>(string sql, CancellationToken cancellationToken)
         {
             List<T> items = new List<T>();

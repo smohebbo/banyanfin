@@ -9,7 +9,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Banyan.Entities.Models
+namespace Banyan.Data.Models
 {
     public partial interface IMCCCULContextProcedures
     {

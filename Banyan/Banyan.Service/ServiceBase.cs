@@ -22,10 +22,10 @@ namespace Hoxro.Service
             this.repository = repository;
         }
 
-        /*public TEntity Find(object[] keyValues, CancellationToken cancellationToken)
+        public TEntity Find(object[] keyValues, CancellationToken cancellationToken)
         {
             return this.repository.Find(keyValues, cancellationToken);
-        }*/
+        }
         /*public async System.Threading.Tasks.Task<System.Collections.Generic.List<T>> CreateQueryAsync<T>(string sql, CancellationToken cancellationToken)
         {
             return await this.repository.CreateQueryAsync<T>(sql, cancellationToken);

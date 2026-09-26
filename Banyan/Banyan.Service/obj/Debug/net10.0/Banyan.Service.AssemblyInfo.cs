@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Banyan.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e1f6ded30a7c5d7667712a0a5ba755c5df24b8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c522558efc22e5101fafe3aa028c0572068d600e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Banyan.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Banyan.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

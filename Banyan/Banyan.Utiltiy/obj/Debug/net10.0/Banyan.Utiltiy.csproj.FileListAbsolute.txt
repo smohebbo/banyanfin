@@ -21,3 +21,15 @@ D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Utiltiy
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\refint\Banyan.Utiltiy.dll
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.pdb
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\ref\Banyan.Utiltiy.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.deps.json
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\bin\Debug\net10.0\Banyan.Utiltiy.pdb
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.AssemblyInfoInputs.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.AssemblyInfo.cs
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.csproj.CoreCompileInputs.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.sourcelink.json
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\refint\Banyan.Utiltiy.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\Banyan.Utiltiy.pdb
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Utiltiy\obj\Debug\net10.0\ref\Banyan.Utiltiy.dll

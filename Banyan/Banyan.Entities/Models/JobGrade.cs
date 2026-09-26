@@ -2,10 +2,11 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using URF.Core.EF.Trackable;
 
 namespace Banyan.Entities.Models;
 
-public partial class JobGrade
+public partial class JobGrade: Entity
 {
     public byte Id { get; set; }
 

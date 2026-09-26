@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Banyan.Entities.Models
+namespace Banyan.Data.Models
 {
     public static class DbContextExtensions
     {

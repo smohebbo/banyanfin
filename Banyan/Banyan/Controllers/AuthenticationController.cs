@@ -39,7 +39,8 @@ namespace Banyan.Controllers
             if (_logininfo.UserId == "admin" &&
                 _logininfo.Password == "123456")
             {
-                return RedirectToAction("Index", "Home");
+                //return RedirectToAction("Index", "Home");
+                return RedirectToAction("Privacy", "Home");
             }
 
             ModelState.AddModelError("", "Invalid User ID or password.");

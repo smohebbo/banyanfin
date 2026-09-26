@@ -2,9 +2,10 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using Banyan.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Banyan.Entities.Models;
+namespace Banyan.Data.Models;
 
 public partial class MCCCULContext : DbContext
 {

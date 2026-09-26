@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {}
+    "C:\\Professional\\Development\\CSharp\\BanyanFin\\BanyanFinGit\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {}
   },
   "projects": {
-    "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {
+    "C:\\Professional\\Development\\CSharp\\BanyanFin\\BanyanFinGit\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
+        "projectUniqueName": "C:\\Professional\\Development\\CSharp\\BanyanFin\\BanyanFinGit\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
         "projectName": "Banyan.Entities",
-        "projectPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
-        "packagesPath": "C:\\Users\\Office\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanfin\\Banyan\\Banyan.Entities\\obj\\",
+        "projectPath": "C:\\Professional\\Development\\CSharp\\BanyanFin\\BanyanFinGit\\banyanfin\\Banyan\\Banyan.Entities\\Banyan.Entities.csproj",
+        "packagesPath": "C:\\Users\\moheb\\.nuget\\packages\\",
+        "outputPath": "C:\\Professional\\Development\\CSharp\\BanyanFin\\BanyanFinGit\\banyanfin\\Banyan\\Banyan.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Office\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\moheb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -54,17 +54,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "TrackableEntities.Common.Core": {
               "target": "Package",
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

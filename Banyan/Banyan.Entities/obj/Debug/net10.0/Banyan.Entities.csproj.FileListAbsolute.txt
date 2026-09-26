@@ -27,3 +27,18 @@ D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Entitie
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.pdb
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.genruntimeconfig.cache
 D:\Development\C sharp\Mothbari\BanyanFin\source\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\ref\Banyan.Entities.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\bin\Debug\net10.0\Banyan.Entities.deps.json
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\bin\Debug\net10.0\Banyan.Entities.runtimeconfig.json
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\bin\Debug\net10.0\Banyan.Entities.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\bin\Debug\net10.0\Banyan.Entities.pdb
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.csproj.AssemblyReference.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.AssemblyInfoInputs.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.AssemblyInfo.cs
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.csproj.CoreCompileInputs.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.sourcelink.json
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\refint\Banyan.Entities.dll
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.pdb
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\Banyan.Entities.genruntimeconfig.cache
+C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Entities\obj\Debug\net10.0\ref\Banyan.Entities.dll

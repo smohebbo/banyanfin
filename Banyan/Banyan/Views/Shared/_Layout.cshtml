@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Banyan</title>
     <script type="importmap"></script>
-    <link rel="stylesheet" href="~/css/banyan.css" />
+    <link rel="stylesheet" href="~/bundles/bootstrap.css" />
+    <link rel="stylesheet" href="~/bundles/site.css" asp-append-version="true" />
     @* <link rel="stylesheet" href="~/Banyan.styles.css" asp-append-version="true" /> *@
 </head>
 <body class="bg-light">
@@ -13,17 +14,18 @@
     <div class="container-fluid">
         <div class="row min-vh-100">
             @* Left Navigation *@
-            <aside class="col-12 col-md-3 col-lg-2 bg-white border-end p-0">
+            <aside class="col-3 bg-white border-end p-0" style="max-width: 300px;">
                 <partial name="_leftMenu" />
             </aside>
+
             @* Main Content *@
-            <main role="main" class="col-12 col-md-9 col-lg-10 p-4">
+            <main role="main" class="col-9 p-4" style="height: calc(100vh - 100px);overflow-y: auto;">
                 @RenderBody()
             </main>
         </div>
     </div>
     <partial name="_footer" />
-    <script src="~/js/banyan.js"></script>
+    <script src="~/bundles/js.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
