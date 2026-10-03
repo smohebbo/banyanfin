@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Banyan.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c522558efc22e5101fafe3aa028c0572068d600e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dce2963382f79346264086cb7a394dd25827bcad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Banyan.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Banyan.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
