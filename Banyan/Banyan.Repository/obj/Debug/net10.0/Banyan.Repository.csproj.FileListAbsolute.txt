@@ -51,3 +51,21 @@ C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banya
 C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Entities.pdb
 C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.R.99BF68D2.Up2Date
 C:\Professional\Development\CSharp\BanyanFin\BanyanFinGit\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\ref\Banyan.Repository.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Repository.deps.json
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Repository.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Repository.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Data.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Entities.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Data.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\bin\Debug\net10.0\Banyan.Entities.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.csproj.AssemblyReference.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.AssemblyInfoInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.AssemblyInfo.cs
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.csproj.CoreCompileInputs.cache
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.sourcelink.json
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.R.99BF68D2.Up2Date
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\refint\Banyan.Repository.dll
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\Banyan.Repository.pdb
+D:\Development\C sharp\Mothbari\BanyanFin\source\banyanFinGitLatest\banyanfin\Banyan\Banyan.Repository\obj\Debug\net10.0\ref\Banyan.Repository.dll
