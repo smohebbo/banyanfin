@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Banyan.Repository.Models
 {
-    public interface IJobGradeRepository : IRepositoryBase<JobGrade>
+    public interface IAddressBookRepository : IRepositoryBase<AddressBook>
     {
 
     }
-    public class JobGradeRepository : RepositoryBase<JobGrade>, IJobGradeRepository
+    public class AddressBookRepository : RepositoryBase<AddressBook>, IAddressBookRepository
     {
         private readonly DbContext _context;
 
-        public JobGradeRepository(DbContext context) : base(context)
+        public AddressBookRepository(DbContext context) : base(context)
         {
             this._context = context;
         }

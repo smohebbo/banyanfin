@@ -1,9 +1,9 @@
 ﻿{
    "CodeGenerationMode": 6,
-   "ContextClassName": "MCCCULContext",
+   "ContextClassName": "BanyanFinContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
-   "IncludeConnectionString": false,
+   "IncludeConnectionString": true,
    "IrregularWords": null,
    "MinimumProductVersion": "2.6.1706",
    "ModelNamespace": null,
@@ -13,13 +13,49 @@
    "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "Banyan.Entities",
    "Schemas": null,
-   "SelectedHandlebarsLanguage": 2,
+   "SelectedHandlebarsLanguage": 3,
    "SelectedToBeGenerated": 0,
    "SingularRules": null,
    "T4TemplatePath": null,
    "Tables": [
       {
          "Name": "[acc].[AccountStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[CashDenominations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[ChartOfAccounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[ChequeBooks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[Journal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[JournalLines]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[JournalSubsidy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[JournalType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[Periods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[acc].[SubsidyAccounts]",
          "ObjectType": 0
       },
       {
@@ -47,10 +83,6 @@
          "ObjectType": 0
       },
       {
-         "Name": "[ad].[PostOffice]",
-         "ObjectType": 0
-      },
-      {
          "Name": "[ad].[Union]",
          "ObjectType": 0
       },
@@ -71,7 +103,7 @@
          "ObjectType": 0
       },
       {
-         "Name": "[cl].[ClientHistory]",
+         "Name": "[cl].[ClientAccounts]",
          "ObjectType": 0
       },
       {
@@ -87,11 +119,127 @@
          "ObjectType": 0
       },
       {
-         "Name": "[cl].[MemberProfile]",
+         "Name": "[cl].[Profession]",
          "ObjectType": 0
       },
       {
-         "Name": "[cl].[Profession]",
+         "Name": "[cl].[SubscriptionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Banks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[EventLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[ID]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[MFS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Modules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Parties]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[PartyType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Policy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[PolicyType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Projects]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[ProjectType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[Relation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[SystemControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[TransactionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[ChequeStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[ClientAccountTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[ClientAccountTransactionLoan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[CollectionSlipLines]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[CollectionSlips]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[Disbursement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[EventAccountCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[EventLines]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[Events]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[EventTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[PaymentMethods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[Transactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[TransactionsBankInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[TransactionStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[fin].[TransactionType]",
          "ObjectType": 0
       },
       {
@@ -107,7 +255,15 @@
          "ObjectType": 0
       },
       {
-         "Name": "[hr].[EmployeeHistory]",
+         "Name": "[hr].[EmployeeGratuity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[EmployeePF]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[hr].[EmployeeSalary]",
          "ObjectType": 0
       },
       {
@@ -127,7 +283,119 @@
          "ObjectType": 0
       },
       {
+         "Name": "[ln].[ApplicationComments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[Applications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[ApplicationStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[EmployeeRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[LoanAccounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[LoanClass]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[LoanPurposes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[ln].[Roles]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[mem].[MemberInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[CumulativeFixedDepositProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[DepositAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[GuaranteeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[InsurancePolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[JointAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanAgeWiseLimit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanExternalGuarantorPolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanProductEligibleGuaranteeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanProductSlabs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[LoanProductType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[Nominee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[NonCumulativeFixedDepositProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[ProductEligibleClientType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[ProductType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[RecurringDepositProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[SavingsProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[prod].[SavingsProductType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sav].[JointAccounts]",
          "ObjectType": 0
       },
       {
@@ -135,15 +403,7 @@
          "ObjectType": 0
       },
       {
-         "Name": "[sav].[SavingsTransactions]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[sav].[SavingsTransactionType]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[sav].[settings]",
+         "Name": "[sav].[SavingsApplication]",
          "ObjectType": 0
       },
       {
@@ -163,75 +423,211 @@
          "ObjectType": 0
       },
       {
-         "Name": "[ad].[AddressBookInsert]",
+         "Name": "[acc].[TrialBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[acc].[DayClose]",
          "ObjectType": 1
       },
       {
-         "Name": "[ad].[AddressBookUpdate]",
+         "Name": "[acc].[DayOpen]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[CreateIndividualClient]",
+         "Name": "[acc].[Journal_Create]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[CreateInstitutionalClient]",
+         "Name": "[acc].[MonthClose]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[CreateMember]",
+         "Name": "[acc].[YearClose]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[DeleteClient]",
+         "Name": "[ad].[AddressBook_Create]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[RestoreClient]",
+         "Name": "[ad].[AddressBook_Delete]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[UpdateClient]",
+         "Name": "[ad].[AddressBook_Get]",
          "ObjectType": 1
       },
       {
-         "Name": "[cl].[VerifyClient]",
+         "Name": "[ad].[AddressBook_Update]",
          "ObjectType": 1
       },
       {
-         "Name": "[hr].[CreateEmployee]",
+         "Name": "[cl].[Client_Create_private]",
          "ObjectType": 1
       },
       {
-         "Name": "[hr].[DeleteEmployee]",
+         "Name": "[cl].[Client_CreateHistory_Private]",
          "ObjectType": 1
       },
       {
-         "Name": "[hr].[RestoreEmployee]",
+         "Name": "[cl].[Client_Delete]",
          "ObjectType": 1
       },
       {
-         "Name": "[hr].[UpdateEmployee]",
+         "Name": "[cl].[Client_Get]",
          "ObjectType": 1
       },
       {
-         "Name": "[hr].[VerifyEmployee]",
+         "Name": "[cl].[Client_Restore]",
          "ObjectType": 1
       },
       {
-         "Name": "[mintu].[find]",
+         "Name": "[cl].[Client_Update_Private]",
          "ObjectType": 1
       },
       {
-         "Name": "[mintu].[FindTableByContent]",
+         "Name": "[cl].[Client_Verify]",
          "ObjectType": 1
       },
       {
-         "Name": "[mintu].[lookup]",
+         "Name": "[cl].[ClientIndividual_Create]",
          "ObjectType": 1
       },
       {
-         "Name": "[mintu].[show]",
+         "Name": "[cl].[ClientIndividual_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[ClientInstitution_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[ClientInstitution_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[core].[BackupDB]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[core].[NextID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[find]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[FindTableByContent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[lookup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[show]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[CollectionSlip_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[CollectionSlip_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[CollectionSlip_Distribute]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[CollectionSlip_Get]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[CollectionSlip_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[fin].[Disbursement_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[history].[CreateHistoryTable]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[Employee_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[Employee_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[Employee_Restore]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[Employee_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[hr].[Employee_Verify]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Approve]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Comment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Get]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[ln].[Application_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[migration].[ChartOfAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsAccount_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsApplication_Approve]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsApplication_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsApplication_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsApplication_Get]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[sav].[SavingsApplication_Update]",
          "ObjectType": 1
       },
       {
@@ -239,22 +635,58 @@
          "ObjectType": 1
       },
       {
-         "Name": "[sec].[DecryptToken]",
+         "Name": "[sec].[ValidatePrivilege]",
          "ObjectType": 1
+      },
+      {
+         "Name": "[test].[Client_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[test].[CollectionSlip]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[test].[Journal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[test].[Loan]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[test].[Savings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[cl].[ClientAccountProductID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[core].[NewID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[core].[SystemControlValue]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[fin].[EventLineID]",
+         "ObjectType": 2
       }
    ],
    "UiHint": null,
    "UncountableWords": null,
    "UseAsyncStoredProcedureCalls": true,
    "UseBoolPropertiesWithoutDefaultSql": false,
-   "UseDatabaseNames": false,
+   "UseDatabaseNames": true,
    "UseDatabaseNamesForRoutines": true,
    "UseDateOnlyTimeOnly": true,
    "UseDbContextSplitting": false,
    "UseDecimalDataAnnotationForSprocResult": true,
-   "UseFluentApiOnly": true,
+   "UseFluentApiOnly": false,
    "UseHandleBars": false,
-   "UseHierarchyId": false,
+   "UseHierarchyId": true,
    "UseInflector": false,
    "UseInternalAccessModifiersForSprocsAndFunctions": false,
    "UseLegacyPluralizer": false,
@@ -263,11 +695,11 @@
    "UseNoNavigations": false,
    "UseNoObjectFilter": false,
    "UseNodaTime": false,
-   "UseNullableReferences": false,
+   "UseNullableReferences": true,
    "UsePrefixNavigationNaming": false,
-   "UseSchemaFolders": false,
-   "UseSchemaNamespaces": false,
-   "UseSpatial": false,
+   "UseSchemaFolders": true,
+   "UseSchemaNamespaces": true,
+   "UseSpatial": true,
    "UseT4": false,
    "UseT4Split": false,
    "UseTypedTvpParameters": true

@@ -1,57 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\",
+  "WorkspaceRootPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|solutionrelative:banyan.repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.entities\\models\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\banyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\banyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.entities\\models\\mccculcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\mccculcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\ibanyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\ibanyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.service\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|solutionrelative:banyan.service\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\ln\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\ln\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E0D1F2-AF6A-4A0E-BBF6-D67C6C7A9694}|Banyan.Utiltiy\\Banyan.Utiltiy.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.utiltiy\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E0D1F2-AF6A-4A0E-BBF6-D67C6C7A9694}|Banyan.Utiltiy\\Banyan.Utiltiy.csproj|solutionrelative:banyan.utiltiy\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\ad\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\ad\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|solutionrelative:banyan.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\acc\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\acc\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|solutionrelative:banyan.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|solutionrelative:banyan.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyan\\banyan.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.ioc\\serviceinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|solutionrelative:banyan.ioc\\serviceinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedHeight": 195,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BanyanFinContext.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContext.cs",
+              "RelativeDocumentMoniker": "Banyan.Data\\Models\\BanyanFinContext.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContext.cs",
+              "RelativeToolTip": "Banyan.Data\\Models\\BanyanFinContext.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAOcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T07:13:58.409Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceInstance.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.IOC\\ServiceInstance.cs",
+              "RelativeDocumentMoniker": "Banyan.IOC\\ServiceInstance.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.IOC\\ServiceInstance.cs",
+              "RelativeToolTip": "Banyan.IOC\\ServiceInstance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T08:10:56.127Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBanyanFinContextProcedures.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
+              "RelativeDocumentMoniker": "Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
+              "RelativeToolTip": "Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:37:28.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Applications.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ln\\Applications.cs",
+              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\ln\\Applications.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ln\\Applications.cs",
+              "RelativeToolTip": "Banyan.Entities\\Models\\ln\\Applications.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:33:54.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BanyanFinContextProcedures.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
+              "RelativeDocumentMoniker": "Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
+              "RelativeToolTip": "Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
+              "ViewState": "AgIAAMoDAAAAAAAAAAAvwN8DAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:32:11.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBook.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ad\\AddressBook.cs",
+              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\ad\\AddressBook.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ad\\AddressBook.cs",
+              "RelativeToolTip": "Banyan.Entities\\Models\\ad\\AddressBook.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:30:07.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Journal.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\Journal.cs",
+              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\acc\\Journal.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\Journal.cs",
+              "RelativeToolTip": "Banyan.Entities\\Models\\acc\\Journal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:25:17.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -71,127 +152,24 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 195,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountStatus.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Models\\AccountStatus.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\AccountStatus.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Models\\AccountStatus.cs",
-              "RelativeToolTip": "Banyan.Entities\\Models\\AccountStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:47:32.936Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MCCCULContext.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Models\\MCCCULContext.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\MCCCULContext.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Models\\MCCCULContext.cs",
-              "RelativeToolTip": "Banyan.Entities\\Models\\MCCCULContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:44:48.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceBase.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Service\\ServiceBase.cs",
-              "RelativeDocumentMoniker": "Banyan.Service\\ServiceBase.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Service\\ServiceBase.cs",
-              "RelativeToolTip": "Banyan.Service\\ServiceBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T08:35:08.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Banyan.Repository\\RepositoryBase.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Banyan.Repository\\RepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:57:22.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Utiltiy\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.Utiltiy\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Utiltiy\\Class1.cs",
-              "RelativeToolTip": "Banyan.Utiltiy\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:39:16.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.IOC\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.IOC\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.IOC\\Class1.cs",
-              "RelativeToolTip": "Banyan.IOC\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:38:30.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Service\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.Service\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Service\\Class1.cs",
-              "RelativeToolTip": "Banyan.Service\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:37:25.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Repository\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.Repository\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Repository\\Class1.cs",
-              "RelativeToolTip": "Banyan.Repository\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:35:32.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.Data\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Data\\Class1.cs",
-              "RelativeToolTip": "Banyan.Data\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T06:34:32.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Class1.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Class1.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\Banyan\\Banyan.Entities\\Class1.cs",
-              "RelativeToolTip": "Banyan.Entities\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T15:10:00.631Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
