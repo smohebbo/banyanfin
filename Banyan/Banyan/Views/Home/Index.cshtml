@@ -56,6 +56,7 @@
                         <div class="col-md-7">
                             <div class="card-body p-4 p-lg-5">
 
+                                <partial name="_SystemAlert" />
                                 <form asp-controller="Authentication" asp-action="Authenticate" method="post">
 
                                     @Html.AntiForgeryToken()

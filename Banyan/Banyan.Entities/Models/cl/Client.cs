@@ -76,7 +76,7 @@ public partial class Client
     public DateTime? LastHistoryDate { get; set; }
 
     [InverseProperty("Client")]
-    public virtual ICollection<Applications> Applications { get; set; } = new List<Applications>();
+    public virtual ICollection<Banyan.Entities.Models.lnSchema.Applications> Applications { get; set; } = new List<Banyan.Entities.Models.lnSchema.Applications>();
 
     [InverseProperty("Client")]
     public virtual ICollection<ClientAccounts> ClientAccounts { get; set; } = new List<ClientAccounts>();
@@ -86,10 +86,10 @@ public partial class Client
     public virtual ClientStatus? ClientStatus { get; set; }
 
     [InverseProperty("Client")]
-    public virtual ICollection<CollectionSlips> CollectionSlips { get; set; } = new List<CollectionSlips>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.CollectionSlips> CollectionSlips { get; set; } = new List<Banyan.Entities.Models.finSchema.CollectionSlips>();
 
     [InverseProperty("Client")]
-    public virtual ICollection<DepositAccount> DepositAccount { get; set; } = new List<DepositAccount>();
+    public virtual ICollection<Banyan.Entities.Models.prodSchema.DepositAccount> DepositAccount { get; set; } = new List<Banyan.Entities.Models.prodSchema.DepositAccount>();
 
     [InverseProperty("Client")]
     public virtual IndividualDetails? IndividualDetails { get; set; }
@@ -98,7 +98,7 @@ public partial class Client
     public virtual InstitutionDetails? InstitutionDetails { get; set; }
 
     [InverseProperty("Client")]
-    public virtual ICollection<SavingsApplication> SavingsApplication { get; set; } = new List<SavingsApplication>();
+    public virtual ICollection<Banyan.Entities.Models.savSchema.SavingsApplication> SavingsApplication { get; set; } = new List<Banyan.Entities.Models.savSchema.SavingsApplication>();
 
     [ForeignKey("SubscriptionTypeID")]
     [InverseProperty("Client")]

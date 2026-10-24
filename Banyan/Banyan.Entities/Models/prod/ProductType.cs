@@ -41,10 +41,10 @@ public partial class ProductType
     public bool? IsActive { get; set; }
 
     [InverseProperty("ProductType")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 
     [InverseProperty("ProductType")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [InverseProperty("ProductType")]
     public virtual ICollection<LoanProductType> LoanProductType { get; set; } = new List<LoanProductType>();

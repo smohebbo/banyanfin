@@ -40,5 +40,5 @@ public partial class SubscriptionType
     public virtual ICollection<Client> Client { get; set; } = new List<Client>();
 
     [InverseProperty("ClientType")]
-    public virtual ICollection<ProductEligibleClientType> ProductEligibleClientType { get; set; } = new List<ProductEligibleClientType>();
+    public virtual ICollection<Banyan.Entities.Models.prodSchema.ProductEligibleClientType> ProductEligibleClientType { get; set; } = new List<Banyan.Entities.Models.prodSchema.ProductEligibleClientType>();
 }

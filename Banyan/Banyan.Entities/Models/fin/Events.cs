@@ -60,7 +60,7 @@ public partial class Events
     public DateTime? SetDate { get; set; }
 
     [InverseProperty("Event")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [ForeignKey("EventTypeID")]
     [InverseProperty("Events")]

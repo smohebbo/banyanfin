@@ -153,7 +153,7 @@ public partial class MemberInfo
 
     [ForeignKey("MemberStatusID")]
     [InverseProperty("MemberInfo")]
-    public virtual ClientStatus? MemberStatus { get; set; }
+    public virtual Banyan.Entities.Models.clSchema.ClientStatus? MemberStatus { get; set; }
 
     [ForeignKey("MotherMemNo")]
     [InverseProperty("InverseMotherMemNoNavigation")]
@@ -161,7 +161,7 @@ public partial class MemberInfo
 
     [ForeignKey("ProfessionID")]
     [InverseProperty("MemberInfo")]
-    public virtual Profession? Profession { get; set; }
+    public virtual Banyan.Entities.Models.clSchema.Profession? Profession { get; set; }
 
     [ForeignKey("SpouseMemNo")]
     [InverseProperty("InverseSpouseMemNoNavigation")]

@@ -1,52 +1,93 @@
 using Banyan.Entities.viewModel;
+using Banyan.Service;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Text.Json;
 
-namespace Banyan.Controllers
+namespace Banyan.Controllers;
+
+public class AuthenticationController : Controller
 {
-    public class AuthenticationController : Controller
+    private const string UserSessionKey = "_userSession";
+    private readonly IAuthenticationService _authenticationService;
+    private readonly IConfiguration _configuration;
+    private readonly ILogger<AuthenticationController> _logger;
+
+    public AuthenticationController(
+        IAuthenticationService authenticationService,
+        IConfiguration configuration,
+        ILogger<AuthenticationController> logger)
     {
-        // GET: AuthenticationController
-        public ActionResult Index()
+        _authenticationService = authenticationService;
+        _configuration = configuration;
+        _logger = logger;
+    }
+
+    [HttpGet]
+    public IActionResult Index()
+    {
+        return View("~/Views/Home/Index.cshtml", new loginViewModel());
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Authenticate(
+        loginViewModel loginInfo,
+        CancellationToken cancellationToken)
+    {
+        HttpContext.Session.Remove(UserSessionKey);
+        if (TempData.Count > 0)
         {
-            return View();
+            TempData.Clear();
         }
-        
-        [HttpGet]
-        public IActionResult Login()
+        if (!ModelState.IsValid)
         {
-            return View();
+            return View("~/Views/Home/Index.cshtml", loginInfo);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Authenticate(loginViewModel _logininfo)
+        var secretKey = _configuration["SecretKey"];
+        if (string.IsNullOrWhiteSpace(secretKey))
         {
-            if (!ModelState.IsValid)
+            _logger.LogError("Authentication cannot run because SecretKey configuration is missing.");
+            TempData["AlertType"] = "danger";
+            TempData["AlertMessage"] = "Sign-in is temporarily unavailable. Please try again later.";
+            return View("~/Views/Home/Index.cshtml", loginInfo);
+        }
+
+        loginInfo.SecretKey = secretKey;
+
+        try
+        {
+            var userSession = await _authenticationService.Authenticate(loginInfo, cancellationToken);
+            if (userSession is null)
             {
-                return View("Login", _logininfo);
+                TempData["AlertType"] = "danger";
+                TempData["AlertMessage"] = "Invalid user ID or password.";
+                return View("~/Views/Home/Index.cshtml", loginInfo);
             }
 
-            // TODO: Validate UserId and password against your database.
-            //
-            // Example:
-            // if (_logininfo.UserId == "admin" &&
-            //     _logininfo.password == "123456")
-            // {
-            //     return RedirectToAction("Index", "Home");
-            // }
-
-            // Temporary example
-            if (_logininfo.UserId == "admin" &&
-                _logininfo.Password == "123456")
-            {
-                //return RedirectToAction("Index", "Home");
-                return RedirectToAction("Privacy", "Home");
-            }
-
-            ModelState.AddModelError("", "Invalid User ID or password.");
-            return View("Login", _logininfo);
+            HttpContext.Session.SetString(UserSessionKey, JsonSerializer.Serialize(userSession));
+            TempData["AlertType"] = "success";
+            TempData["AlertMessage"] = "Sign-in successful.";
+            return RedirectToAction("Index", "Dashboard");
         }
-    
-
+        catch (SqlException exception)
+        {
+            _logger.LogError(exception, "A database error occurred while authenticating a user.");
+            TempData["AlertType"] = "danger";
+            TempData["AlertMessage"] = "Sign-in is temporarily unavailable. Please try again later.";
+            return View("~/Views/Home/Index.cshtml", loginInfo);
+        }
+        catch (OperationCanceledException) when (cancellationToken.IsCancellationRequested)
+        {
+            throw;
+        }
+        catch (Exception exception)
+        {
+            _logger.LogError(exception, "An unexpected error occurred while authenticating a user.");
+            TempData["AlertType"] = "danger";
+            TempData["AlertMessage"] = "Sign-in is temporarily unavailable. Please try again later.";
+            return View("~/Views/Home/Index.cshtml", loginInfo);
+        }
     }
 }

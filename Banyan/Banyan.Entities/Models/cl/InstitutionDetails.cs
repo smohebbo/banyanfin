@@ -46,7 +46,7 @@ public partial class InstitutionDetails
 
     [ForeignKey("AddressID")]
     [InverseProperty("InstitutionDetails")]
-    public virtual AddressBook? Address { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? Address { get; set; }
 
     [ForeignKey("ClientID")]
     [InverseProperty("InstitutionDetails")]

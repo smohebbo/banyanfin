@@ -74,10 +74,10 @@ public partial class Transactions
     public virtual ClientAccounts? ClientAccount { get; set; }
 
     [InverseProperty("Transaction")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 
     [InverseProperty("Transaction")]
-    public virtual ICollection<Disbursement> Disbursement { get; set; } = new List<Disbursement>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.Disbursement> Disbursement { get; set; } = new List<Banyan.Entities.Models.finSchema.Disbursement>();
 
     [ForeignKey("EventID")]
     [InverseProperty("Transactions")]

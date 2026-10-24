@@ -44,13 +44,13 @@ public partial class Disbursement
 
     [ForeignKey("JournalID")]
     [InverseProperty("Disbursement")]
-    public virtual Journal? Journal { get; set; }
+    public virtual Banyan.Entities.Models.accSchema.Journal? Journal { get; set; }
 
     [ForeignKey("LoanAccountID")]
     [InverseProperty("Disbursement")]
-    public virtual LoanAccounts? LoanAccount { get; set; }
+    public virtual Banyan.Entities.Models.lnSchema.LoanAccounts? LoanAccount { get; set; }
 
     [ForeignKey("TransactionID")]
     [InverseProperty("Disbursement")]
-    public virtual Transactions? Transaction { get; set; }
+    public virtual Banyan.Entities.Models.finSchema.Transactions? Transaction { get; set; }
 }

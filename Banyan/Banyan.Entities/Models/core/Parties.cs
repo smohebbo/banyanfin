@@ -48,7 +48,7 @@ public partial class Parties
 
     [ForeignKey("AddressID")]
     [InverseProperty("Parties")]
-    public virtual AddressBook? Address { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? Address { get; set; }
 
     [ForeignKey("PartyTypeID")]
     [InverseProperty("Parties")]

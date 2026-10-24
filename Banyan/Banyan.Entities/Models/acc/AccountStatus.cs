@@ -32,6 +32,5 @@ public partial class AccountStatus
 
     public bool? IsActive { get; set; }
 
-    [InverseProperty("AccountStatus")]
-    public virtual ICollection<ClientAccounts> ClientAccounts { get; set; } = new List<ClientAccounts>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.ClientAccounts> ClientAccounts { get; set; } = new List<Banyan.Entities.Models.clSchema.ClientAccounts>();
 }

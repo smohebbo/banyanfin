@@ -39,7 +39,7 @@ public partial class SavingsProductType
     public bool? IsActive { get; set; }
 
     [InverseProperty("SavingsProductType")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [ForeignKey("ProductTypeID")]
     [InverseProperty("SavingsProductType")]

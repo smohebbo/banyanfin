@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4A1D8B-AE42-44FA-B6E0-BD3B5677E2FB}|Banyan.Service\\Banyan.Service.csproj|solutionrelative:banyan.service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\banyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\banyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.repository\\models\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73401FE-E7CE-4A5A-86F9-0FE27DC1728A}|Banyan.Repository\\Banyan.Repository.csproj|solutionrelative:banyan.repository\\models\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\ibanyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\ibanyanfincontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\ln\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\ln\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\ad\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\ad\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\acc\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\acc\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.entities\\models\\acc\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F553EE-A3EA-6968-5FFD-BA6601D33515}|Banyan.Entities\\Banyan.Entities.csproj|solutionrelative:banyan.entities\\models\\acc\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.ioc\\serviceinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFCB0F2-184B-487A-9D54-D3FE8FF8FB92}|Banyan.IOC\\Banyan.IOC.csproj|solutionrelative:banyan.ioc\\serviceinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E34AA61-2805-A170-6C7E-22459784E569}|Banyan\\Banyan.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E34AA61-2805-A170-6C7E-22459784E569}|Banyan\\Banyan.csproj|solutionrelative:banyan\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB230037-9C70-4003-A990-CF2D43D3263B}|Banyan.Data\\Banyan.Data.csproj|solutionrelative:banyan.data\\models\\banyanfincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E34AA61-2805-A170-6C7E-22459784E569}|Banyan\\Banyan.csproj|d:\\development\\c sharp\\mothbari\\banyanfin\\source\\banyanfingitlatest\\banyanfin\\banyan\\banyan\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E34AA61-2805-A170-6C7E-22459784E569}|Banyan\\Banyan.csproj|solutionrelative:banyan\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 195,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BanyanFinContext.cs",
               "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContext.cs",
               "RelativeDocumentMoniker": "Banyan.Data\\Models\\BanyanFinContext.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContext.cs*",
-              "RelativeToolTip": "Banyan.Data\\Models\\BanyanFinContext.cs*",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContext.cs",
+              "RelativeToolTip": "Banyan.Data\\Models\\BanyanFinContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-11T07:13:58.409Z",
               "IsPinned": true,
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ServiceInstance.cs",
               "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.IOC\\ServiceInstance.cs",
               "RelativeDocumentMoniker": "Banyan.IOC\\ServiceInstance.cs",
               "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.IOC\\ServiceInstance.cs",
               "RelativeToolTip": "Banyan.IOC\\ServiceInstance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-11T08:10:56.127Z",
               "IsPinned": true,
@@ -71,66 +71,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IBanyanFinContextProcedures.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
-              "RelativeDocumentMoniker": "Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
-              "RelativeToolTip": "Banyan.Data\\Models\\IBanyanFinContextProcedures.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADAAAABgAAAAAAAAAA==",
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\acc\\AccountStatus.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\AccountStatus.cs",
+              "RelativeToolTip": "Banyan.Entities\\Models\\acc\\AccountStatus.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACIAAACpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:37:28.883Z",
+              "WhenOpened": "2026-10-24T13:43:29.462Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Applications.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ln\\Applications.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\ln\\Applications.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ln\\Applications.cs",
-              "RelativeToolTip": "Banyan.Entities\\Models\\ln\\Applications.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBoAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Banyan.Service\\AuthenticationService.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Service\\AuthenticationService.cs",
+              "RelativeToolTip": "Banyan.Service\\AuthenticationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:33:54.969Z",
+              "WhenOpened": "2026-10-24T16:43:56.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BanyanFinContextProcedures.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
-              "RelativeDocumentMoniker": "Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
-              "RelativeToolTip": "Banyan.Data\\Models\\BanyanFinContextProcedures.cs",
-              "ViewState": "AgIAAL0DAAAAAAAAAAAvwNIDAAB0AAAAAAAAAA==",
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Repository\\Models\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "Banyan.Repository\\Models\\AuthenticationRepository.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Repository\\Models\\AuthenticationRepository.cs",
+              "RelativeToolTip": "Banyan.Repository\\Models\\AuthenticationRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:32:11.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddressBook.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ad\\AddressBook.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\ad\\AddressBook.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\ad\\AddressBook.cs",
-              "RelativeToolTip": "Banyan.Entities\\Models\\ad\\AddressBook.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:30:07.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Journal.cs",
-              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\Journal.cs",
-              "RelativeDocumentMoniker": "Banyan.Entities\\Models\\acc\\Journal.cs",
-              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan.Entities\\Models\\acc\\Journal.cs",
-              "RelativeToolTip": "Banyan.Entities\\Models\\acc\\Journal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:25:17.306Z",
+              "WhenOpened": "2026-10-24T16:42:53.115Z",
               "EditorCaption": ""
             },
             {
@@ -152,6 +127,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Banyan\\appsettings.Development.json",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan\\appsettings.Development.json",
+              "RelativeToolTip": "Banyan\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-24T16:41:22.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Banyan\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Development\\C sharp\\Mothbari\\BanyanFin\\source\\banyanFinGitLatest\\banyanfin\\Banyan\\Banyan\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Banyan\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:33:01.83Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -161,15 +162,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

@@ -96,7 +96,7 @@ public partial class Employee
     public virtual EmployeePF? EmployeePF { get; set; }
 
     [InverseProperty("Employee")]
-    public virtual EmployeeRoles? EmployeeRoles { get; set; }
+    public virtual Banyan.Entities.Models.lnSchema.EmployeeRoles? EmployeeRoles { get; set; }
 
     [InverseProperty("Employee")]
     public virtual ICollection<EmployeeSalary> EmployeeSalary { get; set; } = new List<EmployeeSalary>();
@@ -122,9 +122,9 @@ public partial class Employee
 
     [ForeignKey("PermanentAddressID")]
     [InverseProperty("EmployeePermanentAddress")]
-    public virtual AddressBook? PermanentAddress { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? PermanentAddress { get; set; }
 
     [ForeignKey("PresentAddressID")]
     [InverseProperty("EmployeePresentAddress")]
-    public virtual AddressBook? PresentAddress { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? PresentAddress { get; set; }
 }

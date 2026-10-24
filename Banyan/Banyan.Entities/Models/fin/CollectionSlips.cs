@@ -77,21 +77,21 @@ public partial class CollectionSlips
 
     [ForeignKey("BankID")]
     [InverseProperty("CollectionSlips")]
-    public virtual Banks? Bank { get; set; }
+    public virtual Banyan.Entities.Models.coreSchema.Banks? Bank { get; set; }
 
     [ForeignKey("ClientID")]
     [InverseProperty("CollectionSlips")]
-    public virtual Client Client { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.Client Client { get; set; } = null!;
 
     [InverseProperty("CollectionSlip")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 
     [InverseProperty("CollectionSlip")]
     public virtual ICollection<CollectionSlipLines> CollectionSlipLines { get; set; } = new List<CollectionSlipLines>();
 
     [ForeignKey("MFSID")]
     [InverseProperty("CollectionSlips")]
-    public virtual MFS? MFS { get; set; }
+    public virtual Banyan.Entities.Models.coreSchema.MFS? MFS { get; set; }
 
     [ForeignKey("PaymentMethodID")]
     [InverseProperty("CollectionSlips")]

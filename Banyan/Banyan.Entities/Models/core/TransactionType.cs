@@ -41,5 +41,5 @@ public partial class TransactionType
     public bool? IsActive { get; set; }
 
     [InverseProperty("TransactionType")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 }

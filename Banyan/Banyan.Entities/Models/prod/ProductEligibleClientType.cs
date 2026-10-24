@@ -34,13 +34,13 @@ public partial class ProductEligibleClientType
 
     [ForeignKey("ClientTypeID")]
     [InverseProperty("ProductEligibleClientType")]
-    public virtual SubscriptionType ClientType { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.SubscriptionType ClientType { get; set; } = null!;
 
     [ForeignKey("ProductID")]
     [InverseProperty("ProductEligibleClientType")]
-    public virtual Products Product { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.Products Product { get; set; } = null!;
 
     [ForeignKey("ProductID")]
     [InverseProperty("ProductEligibleClientType")]
-    public virtual SavingsProducts ProductNavigation { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.SavingsProducts ProductNavigation { get; set; } = null!;
 }

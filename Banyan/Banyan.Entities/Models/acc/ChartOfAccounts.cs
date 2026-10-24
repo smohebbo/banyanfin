@@ -56,10 +56,10 @@ public partial class ChartOfAccounts
     public bool IsActive { get; set; }
 
     [InverseProperty("Coa")]
-    public virtual ICollection<EventAccountCode> EventAccountCode { get; set; } = new List<EventAccountCode>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventAccountCode> EventAccountCode { get; set; } = new List<Banyan.Entities.Models.finSchema.EventAccountCode>();
 
     [InverseProperty("ParentCoa")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [InverseProperty("ParentAccount")]
     public virtual ICollection<ChartOfAccounts> InverseParentAccount { get; set; } = new List<ChartOfAccounts>();

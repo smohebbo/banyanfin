@@ -34,7 +34,7 @@ public partial class EmployeeRoles
 
     [ForeignKey("EmployeeID")]
     [InverseProperty("EmployeeRoles")]
-    public virtual Employee Employee { get; set; } = null!;
+    public virtual Banyan.Entities.Models.hrSchema.Employee Employee { get; set; } = null!;
 
     [ForeignKey("RoleID")]
     [InverseProperty("EmployeeRoles")]

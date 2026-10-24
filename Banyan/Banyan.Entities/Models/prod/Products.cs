@@ -63,13 +63,13 @@ public partial class Products
     public DateTime? SetDate { get; set; }
 
     [InverseProperty("LoanProduct")]
-    public virtual ICollection<Applications> Applications { get; set; } = new List<Applications>();
+    public virtual ICollection<Banyan.Entities.Models.lnSchema.Applications> Applications { get; set; } = new List<Banyan.Entities.Models.lnSchema.Applications>();
 
     [InverseProperty("Product")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 
     [InverseProperty("Product")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [InverseProperty("Product")]
     public virtual LoanProducts? LoanProducts { get; set; }

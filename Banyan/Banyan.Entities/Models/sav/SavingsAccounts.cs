@@ -40,9 +40,9 @@ public partial class SavingsAccounts
 
     [ForeignKey("ClientAccountID")]
     [InverseProperty("SavingsAccounts")]
-    public virtual ClientAccounts ClientAccount { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.ClientAccounts ClientAccount { get; set; } = null!;
 
     [ForeignKey("SavingsProductID")]
     [InverseProperty("SavingsAccounts")]
-    public virtual SavingsProducts? SavingsProduct { get; set; }
+    public virtual Banyan.Entities.Models.prodSchema.SavingsProducts? SavingsProduct { get; set; }
 }

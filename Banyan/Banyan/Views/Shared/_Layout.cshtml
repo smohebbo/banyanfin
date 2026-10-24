@@ -20,6 +20,7 @@
 
             @* Main Content *@
             <main role="main" class="col-9 p-4" style="height: calc(100vh - 100px);overflow-y: auto;">
+                <partial name="_SystemAlert" />
                 @RenderBody()
             </main>
         </div>
@@ -29,4 +30,3 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-

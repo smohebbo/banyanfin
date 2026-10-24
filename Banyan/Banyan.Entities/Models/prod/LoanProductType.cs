@@ -41,7 +41,7 @@ public partial class LoanProductType
     public bool? IsActive { get; set; }
 
     [InverseProperty("LoanProductType")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 
     [InverseProperty("LoanProductType")]
     public virtual ICollection<LoanProducts> LoanProducts { get; set; } = new List<LoanProducts>();

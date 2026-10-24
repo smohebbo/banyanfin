@@ -79,7 +79,7 @@ public partial class District
     public virtual Division? Division { get; set; }
 
     [InverseProperty("BirthPlaceDistrict")]
-    public virtual ICollection<IndividualDetails> IndividualDetails { get; set; } = new List<IndividualDetails>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.IndividualDetails> IndividualDetails { get; set; } = new List<Banyan.Entities.Models.clSchema.IndividualDetails>();
 
     [InverseProperty("District")]
     public virtual ICollection<Upazila> Upazila { get; set; } = new List<Upazila>();

@@ -60,12 +60,12 @@ public partial class LoanAccounts
 
     [ForeignKey("ClientAccountID")]
     [InverseProperty("LoanAccounts")]
-    public virtual ClientAccounts ClientAccount { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.ClientAccounts ClientAccount { get; set; } = null!;
 
     [InverseProperty("LoanAccount")]
-    public virtual ICollection<Disbursement> Disbursement { get; set; } = new List<Disbursement>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.Disbursement> Disbursement { get; set; } = new List<Banyan.Entities.Models.finSchema.Disbursement>();
 
     [ForeignKey("LoanProductID")]
     [InverseProperty("LoanAccounts")]
-    public virtual LoanProducts LoanProduct { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.LoanProducts LoanProduct { get; set; } = null!;
 }

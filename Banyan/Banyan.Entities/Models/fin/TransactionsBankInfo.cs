@@ -42,7 +42,7 @@ public partial class TransactionsBankInfo
 
     [ForeignKey("BankID")]
     [InverseProperty("TransactionsBankInfo")]
-    public virtual Banks Bank { get; set; } = null!;
+    public virtual Banyan.Entities.Models.coreSchema.Banks Bank { get; set; } = null!;
 
     [ForeignKey("ChequeStatusID")]
     [InverseProperty("TransactionsBankInfo")]

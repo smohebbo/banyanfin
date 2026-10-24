@@ -33,8 +33,8 @@ public partial class ClientStatus
     public bool? IsActive { get; set; }
 
     [InverseProperty("ClientStatus")]
-    public virtual ICollection<Client> Client { get; set; } = new List<Client>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.Client> Client { get; set; } = new List<Banyan.Entities.Models.clSchema.Client>();
 
     [InverseProperty("MemberStatus")]
-    public virtual ICollection<MemberInfo> MemberInfo { get; set; } = new List<MemberInfo>();
+    public virtual ICollection<Banyan.Entities.Models.memSchema.MemberInfo> MemberInfo { get; set; } = new List<Banyan.Entities.Models.memSchema.MemberInfo>();
 }

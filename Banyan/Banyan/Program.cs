@@ -1,8 +1,13 @@
+using Banyan.IOC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddWebOptimizer(Banyan.WebOptimizerConfig.Configure);
+builder.Services.RegisterMCCCULServiceInstance(builder.Configuration);
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -13,6 +18,7 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseRouting();
 app.UseWebOptimizer();
+app.UseSession();
 
 app.UseAuthorization();
 
@@ -20,7 +26,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Authentication}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

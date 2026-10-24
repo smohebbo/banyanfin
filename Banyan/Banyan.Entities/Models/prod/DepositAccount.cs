@@ -43,7 +43,7 @@ public partial class DepositAccount
 
     [ForeignKey("ClientID")]
     [InverseProperty("DepositAccount")]
-    public virtual Client Client { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.Client Client { get; set; } = null!;
 
     [ForeignKey("ProductID")]
     [InverseProperty("DepositAccount")]

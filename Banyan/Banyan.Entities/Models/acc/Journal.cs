@@ -65,7 +65,7 @@ public partial class Journal
     public DateTime? PostedDate { get; set; }
 
     [InverseProperty("Journal")]
-    public virtual ICollection<Disbursement> Disbursement { get; set; } = new List<Disbursement>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.Disbursement> Disbursement { get; set; } = new List<Banyan.Entities.Models.finSchema.Disbursement>();
 
     [InverseProperty("Journal")]
     public virtual ICollection<JournalLines> JournalLines { get; set; } = new List<JournalLines>();

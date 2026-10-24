@@ -91,15 +91,15 @@ public partial class Applications
 
     [ForeignKey("ClientID")]
     [InverseProperty("Applications")]
-    public virtual Client Client { get; set; } = null!;
+    public virtual Banyan.Entities.Models.clSchema.Client Client { get; set; } = null!;
 
     [ForeignKey("LoanProductID")]
     [InverseProperty("Applications")]
-    public virtual Products LoanProduct { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.Products LoanProduct { get; set; } = null!;
 
     [ForeignKey("LoanProductID")]
     [InverseProperty("Applications")]
-    public virtual LoanProducts LoanProductNavigation { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.LoanProducts LoanProductNavigation { get; set; } = null!;
 
     [ForeignKey("PurposeID")]
     [InverseProperty("Applications")]

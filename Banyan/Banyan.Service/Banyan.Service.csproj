@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Banyan.Entities\Banyan.Entities.csproj" />
     <ProjectReference Include="..\Banyan.Repository\Banyan.Repository.csproj" />
   </ItemGroup>
 

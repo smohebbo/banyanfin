@@ -1,0 +1,13 @@
+@{
+    var alertType = TempData["AlertType"] as string;
+    var message = TempData["AlertMessage"] as string;
+}
+
+@if (!string.IsNullOrWhiteSpace(message) &&
+     alertType is "success" or "danger" or "warning" or "info")
+{
+    <div id="system-alert" class="alert alert-@alertType alert-dismissible fade show" role="alert">
+        @message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}

@@ -33,8 +33,8 @@ public partial class Banks
     public bool? IsActive { get; set; }
 
     [InverseProperty("Bank")]
-    public virtual ICollection<CollectionSlips> CollectionSlips { get; set; } = new List<CollectionSlips>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.CollectionSlips> CollectionSlips { get; set; } = new List<Banyan.Entities.Models.finSchema.CollectionSlips>();
 
     [InverseProperty("Bank")]
-    public virtual ICollection<TransactionsBankInfo> TransactionsBankInfo { get; set; } = new List<TransactionsBankInfo>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.TransactionsBankInfo> TransactionsBankInfo { get; set; } = new List<Banyan.Entities.Models.finSchema.TransactionsBankInfo>();
 }

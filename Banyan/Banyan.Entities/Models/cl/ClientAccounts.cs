@@ -75,25 +75,25 @@ public partial class ClientAccounts
     public DateTime? LastHistoryDate { get; set; }
 
     [ForeignKey("AccountStatusID")]
-    [InverseProperty("ClientAccounts")]
-    public virtual AccountStatus AccountStatus { get; set; } = null!;
+    public virtual Banyan.Entities.Models.accSchema.AccountStatus AccountStatus { get; set; } = null!;
 
     [ForeignKey("ClientID")]
     [InverseProperty("ClientAccounts")]
     public virtual Client Client { get; set; } = null!;
 
     [InverseProperty("ClientAccount")]
-    public virtual ICollection<ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<ClientAccountTransaction>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.ClientAccountTransaction> ClientAccountTransaction { get; set; } = new List<Banyan.Entities.Models.finSchema.ClientAccountTransaction>();
 
     [InverseProperty("ClientAccount")]
     public virtual ICollection<CollectionSlipLines> CollectionSlipLines { get; set; } = new List<CollectionSlipLines>();
 
     [InverseProperty("ClientAccount")]
-    public virtual LoanAccounts? LoanAccounts { get; set; }
+    public virtual Banyan.Entities.Models.lnSchema.LoanAccounts? LoanAccounts { get; set; }
 
     [InverseProperty("ClientAccount")]
-    public virtual SavingsAccounts? SavingsAccounts { get; set; }
+    public virtual Banyan.Entities.Models.savSchema.SavingsAccounts? SavingsAccounts { get; set; }
 
     [InverseProperty("ClientAccount")]
     public virtual ICollection<Transactions> Transactions { get; set; } = new List<Transactions>();
+
 }

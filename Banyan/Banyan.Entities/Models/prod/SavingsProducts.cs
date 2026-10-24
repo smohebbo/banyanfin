@@ -79,10 +79,10 @@ public partial class SavingsProducts
     public virtual RecurringDepositProducts? RecurringDepositProducts { get; set; }
 
     [InverseProperty("SavingsProduct")]
-    public virtual ICollection<SavingsAccounts> SavingsAccounts { get; set; } = new List<SavingsAccounts>();
+    public virtual ICollection<Banyan.Entities.Models.savSchema.SavingsAccounts> SavingsAccounts { get; set; } = new List<Banyan.Entities.Models.savSchema.SavingsAccounts>();
 
     [InverseProperty("SavingsProduct")]
-    public virtual ICollection<SavingsApplication> SavingsApplication { get; set; } = new List<SavingsApplication>();
+    public virtual ICollection<Banyan.Entities.Models.savSchema.SavingsApplication> SavingsApplication { get; set; } = new List<Banyan.Entities.Models.savSchema.SavingsApplication>();
 
     [ForeignKey("SavingsProductTypeID")]
     [InverseProperty("SavingsProducts")]

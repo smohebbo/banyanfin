@@ -33,8 +33,8 @@ public partial class Profession
     public bool IsActive { get; set; }
 
     [InverseProperty("Profession")]
-    public virtual ICollection<IndividualDetails> IndividualDetails { get; set; } = new List<IndividualDetails>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.IndividualDetails> IndividualDetails { get; set; } = new List<Banyan.Entities.Models.clSchema.IndividualDetails>();
 
     [InverseProperty("Profession")]
-    public virtual ICollection<MemberInfo> MemberInfo { get; set; } = new List<MemberInfo>();
+    public virtual ICollection<Banyan.Entities.Models.memSchema.MemberInfo> MemberInfo { get; set; } = new List<Banyan.Entities.Models.memSchema.MemberInfo>();
 }

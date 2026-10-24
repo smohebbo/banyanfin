@@ -33,5 +33,5 @@ public partial class MFS
     public bool? IsActive { get; set; }
 
     [InverseProperty("MFS")]
-    public virtual ICollection<CollectionSlips> CollectionSlips { get; set; } = new List<CollectionSlips>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.CollectionSlips> CollectionSlips { get; set; } = new List<Banyan.Entities.Models.finSchema.CollectionSlips>();
 }

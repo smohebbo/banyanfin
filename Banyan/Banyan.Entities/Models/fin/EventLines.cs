@@ -104,21 +104,21 @@ public partial class EventLines
 
     [ForeignKey("LoanProductTypeID")]
     [InverseProperty("EventLines")]
-    public virtual LoanProductType? LoanProductType { get; set; }
+    public virtual Banyan.Entities.Models.prodSchema.LoanProductType? LoanProductType { get; set; }
 
     [ForeignKey("ParentCoaID")]
     [InverseProperty("EventLines")]
-    public virtual ChartOfAccounts? ParentCoa { get; set; }
+    public virtual Banyan.Entities.Models.accSchema.ChartOfAccounts? ParentCoa { get; set; }
 
     [ForeignKey("ProductID")]
     [InverseProperty("EventLines")]
-    public virtual Products? Product { get; set; }
+    public virtual Banyan.Entities.Models.prodSchema.Products? Product { get; set; }
 
     [ForeignKey("ProductTypeID")]
     [InverseProperty("EventLines")]
-    public virtual ProductType? ProductType { get; set; }
+    public virtual Banyan.Entities.Models.prodSchema.ProductType? ProductType { get; set; }
 
     [ForeignKey("SavingsProductTypeID")]
     [InverseProperty("EventLines")]
-    public virtual SavingsProductType? SavingsProductType { get; set; }
+    public virtual Banyan.Entities.Models.prodSchema.SavingsProductType? SavingsProductType { get; set; }
 }

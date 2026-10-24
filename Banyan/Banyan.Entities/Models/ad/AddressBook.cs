@@ -60,19 +60,19 @@ public partial class AddressBook
     public string? Email { get; set; }
 
     [InverseProperty("PermanentAddress")]
-    public virtual ICollection<Employee> EmployeePermanentAddress { get; set; } = new List<Employee>();
+    public virtual ICollection<Banyan.Entities.Models.hrSchema.Employee> EmployeePermanentAddress { get; set; } = new List<Banyan.Entities.Models.hrSchema.Employee>();
 
     [InverseProperty("PresentAddress")]
-    public virtual ICollection<Employee> EmployeePresentAddress { get; set; } = new List<Employee>();
+    public virtual ICollection<Banyan.Entities.Models.hrSchema.Employee> EmployeePresentAddress { get; set; } = new List<Banyan.Entities.Models.hrSchema.Employee>();
 
     [InverseProperty("PermanentAddress")]
-    public virtual ICollection<IndividualDetails> IndividualDetailsPermanentAddress { get; set; } = new List<IndividualDetails>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.IndividualDetails> IndividualDetailsPermanentAddress { get; set; } = new List<Banyan.Entities.Models.clSchema.IndividualDetails>();
 
     [InverseProperty("PresentAddress")]
-    public virtual ICollection<IndividualDetails> IndividualDetailsPresentAddress { get; set; } = new List<IndividualDetails>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.IndividualDetails> IndividualDetailsPresentAddress { get; set; } = new List<Banyan.Entities.Models.clSchema.IndividualDetails>();
 
     [InverseProperty("Address")]
-    public virtual ICollection<InstitutionDetails> InstitutionDetails { get; set; } = new List<InstitutionDetails>();
+    public virtual ICollection<Banyan.Entities.Models.clSchema.InstitutionDetails> InstitutionDetails { get; set; } = new List<Banyan.Entities.Models.clSchema.InstitutionDetails>();
 
     [InverseProperty("Address")]
     public virtual ICollection<Parties> Parties { get; set; } = new List<Parties>();

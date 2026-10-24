@@ -255,15 +255,15 @@ public partial class BanyanFinContext : DbContext
         {
             entity.HasKey(e => e.ID).HasName("PK__LoanAppl__3214EC2757BBDD95");
 
-            entity.HasOne(d => d.Client).WithMany()
+            entity.HasOne(d => d.Client).WithMany(p => p.Applications)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__LoanAppli__Clien__66760F55");
 
-            entity.HasOne(d => d.LoanProduct).WithMany()
+            entity.HasOne(d => d.LoanProduct).WithMany(p => p.Applications)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__LoanAppli__LoanP__676A338E");
 
-            entity.HasOne(d => d.LoanProductNavigation).WithMany()
+            entity.HasOne(d => d.LoanProductNavigation).WithMany(p => p.Applications)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Applications_LoanProducts");
 
@@ -323,25 +323,25 @@ public partial class BanyanFinContext : DbContext
             entity.Property(e => e.BalanceBefore).HasComment("For loan, this is Principal Opening Balance");
             entity.Property(e => e.DrCr).IsFixedLength();
 
-            entity.HasOne(d => d.ClientAccount).WithMany()
+            entity.HasOne(d => d.ClientAccount).WithMany(p => p.ClientAccountTransaction)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ClientAcc__Clien__2F30C763");
 
-            entity.HasOne(d => d.CollectionSlip).WithMany().HasConstraintName("FK__ClientAcc__Colle__2E3CA32A");
+            entity.HasOne(d => d.CollectionSlip).WithMany(p => p.ClientAccountTransaction).HasConstraintName("FK__ClientAcc__Colle__2E3CA32A");
 
-            entity.HasOne(d => d.Product).WithMany()
+            entity.HasOne(d => d.Product).WithMany(p => p.ClientAccountTransaction)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ClientAcc__Produ__2C545AB8");
 
-            entity.HasOne(d => d.ProductType).WithMany()
+            entity.HasOne(d => d.ProductType).WithMany(p => p.ClientAccountTransaction)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ClientAcc__Produ__2D487EF1");
 
-            entity.HasOne(d => d.Transaction).WithMany()
+            entity.HasOne(d => d.Transaction).WithMany(p => p.ClientAccountTransaction)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ClientAcc__Trans__3024EB9C");
 
-            entity.HasOne(d => d.TransactionType).WithMany()
+            entity.HasOne(d => d.TransactionType).WithMany(p => p.ClientAccountTransaction)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ClientAcc__Trans__31190FD5");
         });
@@ -367,7 +367,7 @@ public partial class BanyanFinContext : DbContext
             entity.Property(e => e.LastClientAccountTransactionID).HasComment("This only contain Key to the ClientAccountTransaction. Disbursement is not covered here.");
             entity.Property(e => e.OpeningDate).HasComment("For Loan, First Disbursement Date is the opening date");
 
-            entity.HasOne(d => d.AccountStatus).WithMany()
+            entity.HasOne(d => d.AccountStatus).WithMany(p => p.ClientAccounts)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_ClientAccounts_AccountStatus");
 
@@ -400,13 +400,14 @@ public partial class BanyanFinContext : DbContext
 
             entity.Property(e => e.CollectionDate).HasComment("Business Date/ Accounting Date");
 
-            entity.HasOne(d => d.Bank).WithMany().HasConstraintName("FK_CollectionSlipMaster_Banks");
+            entity.HasOne(d => d.Bank).WithMany(p => p.CollectionSlips)
+                .HasConstraintName("FK_CollectionSlipMaster_Banks");
 
-            entity.HasOne(d => d.Client).WithMany()
+            entity.HasOne(d => d.Client).WithMany(p => p.CollectionSlips)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Collectio__Clien__61FB72FB");
 
-            entity.HasOne(d => d.MFS).WithMany().HasConstraintName("FK_CollectionSlips_MFS");
+            entity.HasOne(d => d.MFS).WithMany(p => p.CollectionSlips).HasConstraintName("FK_CollectionSlips_MFS");
 
             entity.HasOne(d => d.PaymentMethod).WithMany(p => p.CollectionSlips).HasConstraintName("FK_CollectionSlips_PaymentMethods");
 
@@ -446,11 +447,11 @@ public partial class BanyanFinContext : DbContext
 
             entity.Property(e => e.ID).ValueGeneratedNever();
 
-            entity.HasOne(d => d.Client).WithMany()
+            entity.HasOne(d => d.Client).WithMany(p => p.DepositAccount)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_DepositAccount_Client");
 
-            entity.HasOne(d => d.Product).WithMany()
+            entity.HasOne(d => d.Product).WithMany(p => p.DepositAccount)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_DepositAccount_Products");
         });
@@ -464,11 +465,11 @@ public partial class BanyanFinContext : DbContext
         {
             entity.HasKey(e => e.ID).HasName("PK__Disburse__3214EC27589C0B4D");
 
-            entity.HasOne(d => d.Journal).WithMany().HasConstraintName("FK_Disbursement_JournalEntries");
+            entity.HasOne(d => d.Journal).WithMany(p => p.Disbursement).HasConstraintName("FK_Disbursement_JournalEntries");
 
-            entity.HasOne(d => d.LoanAccount).WithMany().HasConstraintName("FK__Disbursem__LoanA__66F53242");
+            entity.HasOne(d => d.LoanAccount).WithMany(p => p.Disbursement).HasConstraintName("FK__Disbursem__LoanA__66F53242");
 
-            entity.HasOne(d => d.Transaction).WithMany().HasConstraintName("FK_Disbursement_Transactions");
+            entity.HasOne(d => d.Transaction).WithMany(p => p.Disbursement).HasConstraintName("FK_Disbursement_Transactions");
         });
 
         modelBuilder.Entity<District>(entity =>
@@ -519,9 +520,11 @@ public partial class BanyanFinContext : DbContext
 
             entity.HasOne(d => d.Manager).WithMany(p => p.InverseManager).HasConstraintName("FK_Employee_Manager");
 
-            entity.HasOne(d => d.PermanentAddress).WithMany().HasConstraintName("FK_Employee_AddressBook1");
+            entity.HasOne(d => d.PermanentAddress).WithMany(p => p.EmployeePermanentAddress)
+                .HasConstraintName("FK_Employee_AddressBook1");
 
-            entity.HasOne(d => d.PresentAddress).WithMany().HasConstraintName("FK_Employee_AddressBook");
+            entity.HasOne(d => d.PresentAddress).WithMany(p => p.EmployeePresentAddress)
+                .HasConstraintName("FK_Employee_AddressBook");
         });
 
         modelBuilder.Entity<EmployeeGratuity>(entity =>
@@ -554,11 +557,11 @@ public partial class BanyanFinContext : DbContext
 
             entity.Property(e => e.EmployeeID).ValueGeneratedNever();
 
-            entity.HasOne(d => d.Employee).WithOne()
+            entity.HasOne(d => d.Employee).WithOne(p => p.EmployeeRoles)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__EmployeeR__Emplo__312E1E6E");
 
-            entity.HasOne(d => d.Role).WithMany().HasConstraintName("FK__EmployeeR__RoleI__322242A7");
+            entity.HasOne(d => d.Role).WithMany(p => p.EmployeeRoles).HasConstraintName("FK__EmployeeR__RoleI__322242A7");
         });
 
         modelBuilder.Entity<EmployeeSalary>(entity =>
@@ -572,7 +575,7 @@ public partial class BanyanFinContext : DbContext
 
         modelBuilder.Entity<EventAccountCode>(entity =>
         {
-            entity.HasOne(d => d.Coa).WithMany()
+            entity.HasOne(d => d.Coa).WithMany(p => p.EventAccountCode)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_EventAccountCode_ChartOfAccounts");
         });
@@ -589,19 +592,20 @@ public partial class BanyanFinContext : DbContext
             entity.Property(e => e.DrCr).IsFixedLength();
             entity.Property(e => e.LineNumber).HasComment("Stable ordering within the rule");
 
-            entity.HasOne(d => d.EventAccountCodeNavigation).WithMany().HasConstraintName("FK_EventPostingRuleLines_EventAccountCode");
+            entity.HasOne(d => d.EventAccountCodeNavigation).WithMany(p => p.EventLines).HasConstraintName("FK_EventPostingRuleLines_EventAccountCode");
 
-            entity.HasOne(d => d.Event).WithMany().HasConstraintName("FK_EventLines_Events");
+            entity.HasOne(d => d.Event).WithMany(p => p.EventLines).HasConstraintName("FK_EventLines_Events");
 
-            entity.HasOne(d => d.LoanProductType).WithMany().HasConstraintName("FK_EventPostingRuleLines_LoanProductType");
+            entity.HasOne(d => d.LoanProductType).WithMany(p => p.EventLines).HasConstraintName("FK_EventPostingRuleLines_LoanProductType");
 
-            entity.HasOne(d => d.ParentCoa).WithMany().HasConstraintName("FK_EventPostingRuleLines_ChartOfAccounts");
+            entity.HasOne(d => d.ParentCoa).WithMany(p => p.EventLines)
+                .HasConstraintName("FK_EventPostingRuleLines_ChartOfAccounts");
 
-            entity.HasOne(d => d.Product).WithMany().HasConstraintName("FK_EventPostingRuleLines_Products");
+            entity.HasOne(d => d.Product).WithMany(p => p.EventLines).HasConstraintName("FK_EventPostingRuleLines_Products");
 
-            entity.HasOne(d => d.ProductType).WithMany().HasConstraintName("FK_EventPostingRuleLines_ProductType");
+            entity.HasOne(d => d.ProductType).WithMany(p => p.EventLines).HasConstraintName("FK_EventPostingRuleLines_ProductType");
 
-            entity.HasOne(d => d.SavingsProductType).WithMany().HasConstraintName("FK_EventPostingRuleLines_SavingsProductType");
+            entity.HasOne(d => d.SavingsProductType).WithMany(p => p.EventLines).HasConstraintName("FK_EventPostingRuleLines_SavingsProductType");
         });
 
         modelBuilder.Entity<EventLog>(entity =>
@@ -658,7 +662,7 @@ public partial class BanyanFinContext : DbContext
             entity.Property(e => e.MaritalStatus).IsFixedLength();
             entity.Property(e => e.Religion).IsFixedLength();
 
-            entity.HasOne(d => d.BirthPlaceDistrict).WithMany().HasConstraintName("FK_IndividualDetails_District");
+            entity.HasOne(d => d.BirthPlaceDistrict).WithMany(p => p.IndividualDetails).HasConstraintName("FK_IndividualDetails_District");
 
             entity.HasOne(d => d.Client).WithOne(p => p.IndividualDetails)
                 .OnDelete(DeleteBehavior.ClientSetNull)
@@ -670,11 +674,13 @@ public partial class BanyanFinContext : DbContext
 
             entity.HasOne(d => d.MotherClientNoNavigation).WithMany(p => p.InverseMotherClientNoNavigation).HasConstraintName("FK_IndividualDetails_IndividualDetails1");
 
-            entity.HasOne(d => d.PermanentAddress).WithMany().HasConstraintName("FK_IndividualDetails_AddressBook1");
+            entity.HasOne(d => d.PermanentAddress).WithMany(p => p.IndividualDetailsPermanentAddress)
+                .HasConstraintName("FK_IndividualDetails_AddressBook1");
 
-            entity.HasOne(d => d.PresentAddress).WithMany().HasConstraintName("FK_IndividualDetails_AddressBook");
+            entity.HasOne(d => d.PresentAddress).WithMany(p => p.IndividualDetailsPresentAddress)
+                .HasConstraintName("FK_IndividualDetails_AddressBook");
 
-            entity.HasOne(d => d.Profession).WithMany().HasConstraintName("FK_IndividualDetails_Profession");
+            entity.HasOne(d => d.Profession).WithMany(p => p.IndividualDetails).HasConstraintName("FK_IndividualDetails_Profession");
 
             entity.HasOne(d => d.SpouseClientNoNavigation).WithMany(p => p.InverseSpouseClientNoNavigation).HasConstraintName("FK_IndividualDetails_IndividualDetails2");
         });
@@ -685,7 +691,8 @@ public partial class BanyanFinContext : DbContext
 
             entity.Property(e => e.ClientID).ValueGeneratedNever();
 
-            entity.HasOne(d => d.Address).WithMany().HasConstraintName("FK_InstitutionDetails_AddressBook");
+            entity.HasOne(d => d.Address).WithMany(p => p.InstitutionDetails)
+                .HasConstraintName("FK_InstitutionDetails_AddressBook");
 
             entity.HasOne(d => d.Client).WithOne(p => p.InstitutionDetails)
                 .OnDelete(DeleteBehavior.ClientSetNull)
@@ -776,11 +783,11 @@ public partial class BanyanFinContext : DbContext
             entity.Property(e => e.ClientAccountID).ValueGeneratedNever();
             entity.Property(e => e.LastClientAccountTransactionID).HasComment("Reference to key to the ClientAccountTransaction. Disbursement is not covered, only collection");
 
-            entity.HasOne(d => d.ClientAccount).WithOne()
+            entity.HasOne(d => d.ClientAccount).WithOne(p => p.LoanAccounts)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_LoanAccounts_ClientAccounts");
 
-            entity.HasOne(d => d.LoanProduct).WithMany()
+            entity.HasOne(d => d.LoanProduct).WithMany(p => p.LoanAccounts)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__LoanAccou__LoanP__6418C597");
         });
@@ -894,11 +901,11 @@ public partial class BanyanFinContext : DbContext
 
             entity.HasOne(d => d.FatherMemNoNavigation).WithMany(p => p.InverseFatherMemNoNavigation).HasConstraintName("FK_MemberInfo_MemberInfo");
 
-            entity.HasOne(d => d.MemberStatus).WithMany().HasConstraintName("FK_MemberInfo_MemberStatus");
+            entity.HasOne(d => d.MemberStatus).WithMany(p => p.MemberInfo).HasConstraintName("FK_MemberInfo_MemberStatus");
 
             entity.HasOne(d => d.MotherMemNoNavigation).WithMany(p => p.InverseMotherMemNoNavigation).HasConstraintName("FK_MemberInfo_MemberInfo1");
 
-            entity.HasOne(d => d.Profession).WithMany().HasConstraintName("FK_MemberInfo_Profession");
+            entity.HasOne(d => d.Profession).WithMany(p => p.MemberInfo).HasConstraintName("FK_MemberInfo_Profession");
 
             entity.HasOne(d => d.SpouseMemNoNavigation).WithMany(p => p.InverseSpouseMemNoNavigation).HasConstraintName("FK_MemberInfo_MemberInfo2");
         });
@@ -928,7 +935,8 @@ public partial class BanyanFinContext : DbContext
         {
             entity.HasKey(e => e.ID).HasName("PK__Parties__3214EC271CA31F35");
 
-            entity.HasOne(d => d.Address).WithMany().HasConstraintName("FK__Parties__Address__6ABBA185");
+            entity.HasOne(d => d.Address).WithMany(p => p.Parties)
+                .HasConstraintName("FK__Parties__Address__6ABBA185");
 
             entity.HasOne(d => d.PartyType).WithMany(p => p.Parties)
                 .OnDelete(DeleteBehavior.ClientSetNull)
@@ -990,7 +998,7 @@ public partial class BanyanFinContext : DbContext
         {
             entity.HasKey(e => new { e.ProductID, e.ClientTypeID }).HasName("PK_Eligibity");
 
-            entity.HasOne(d => d.ClientType).WithMany()
+            entity.HasOne(d => d.ClientType).WithMany(p => p.ProductEligibleClientType)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_ProductEligibleClientType_ClientType");
 
@@ -1060,22 +1068,22 @@ public partial class BanyanFinContext : DbContext
         {
             entity.Property(e => e.ClientAccountID).ValueGeneratedNever();
 
-            entity.HasOne(d => d.ClientAccount).WithOne()
+            entity.HasOne(d => d.ClientAccount).WithOne(p => p.SavingsAccounts)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SavingsAccounts_ClientAccounts");
 
-            entity.HasOne(d => d.SavingsProduct).WithMany().HasConstraintName("FK_SavingsAccounts_SavingsProducts");
+            entity.HasOne(d => d.SavingsProduct).WithMany(p => p.SavingsAccounts).HasConstraintName("FK_SavingsAccounts_SavingsProducts");
         });
 
         modelBuilder.Entity<SavingsApplication>(entity =>
         {
             entity.HasKey(e => e.ID).HasName("PK__SavingsA__3214EC279B48B72E");
 
-            entity.HasOne(d => d.Client).WithMany()
+            entity.HasOne(d => d.Client).WithMany(p => p.SavingsApplication)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__SavingsAp__Clien__10C14EDC");
 
-            entity.HasOne(d => d.SavingsProduct).WithMany()
+            entity.HasOne(d => d.SavingsProduct).WithMany(p => p.SavingsApplication)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__SavingsAp__Savin__11B57315");
         });
@@ -1184,7 +1192,7 @@ public partial class BanyanFinContext : DbContext
 
             entity.Property(e => e.TransactionID).ValueGeneratedNever();
 
-            entity.HasOne(d => d.Bank).WithMany()
+            entity.HasOne(d => d.Bank).WithMany(p => p.TransactionsBankInfo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Transacti__BankI__0B287117");
 

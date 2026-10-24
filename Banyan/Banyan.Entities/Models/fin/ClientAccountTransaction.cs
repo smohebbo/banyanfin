@@ -85,11 +85,11 @@ public partial class ClientAccountTransaction
 
     [ForeignKey("ProductID")]
     [InverseProperty("ClientAccountTransaction")]
-    public virtual Products Product { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.Products Product { get; set; } = null!;
 
     [ForeignKey("ProductTypeID")]
     [InverseProperty("ClientAccountTransaction")]
-    public virtual ProductType ProductType { get; set; } = null!;
+    public virtual Banyan.Entities.Models.prodSchema.ProductType ProductType { get; set; } = null!;
 
     [ForeignKey("TransactionID")]
     [InverseProperty("ClientAccountTransaction")]
@@ -97,5 +97,5 @@ public partial class ClientAccountTransaction
 
     [ForeignKey("TransactionTypeID")]
     [InverseProperty("ClientAccountTransaction")]
-    public virtual TransactionType TransactionType { get; set; } = null!;
+    public virtual Banyan.Entities.Models.coreSchema.TransactionType TransactionType { get; set; } = null!;
 }

@@ -36,8 +36,8 @@ public partial class EventAccountCode
 
     [ForeignKey("CoaID")]
     [InverseProperty("EventAccountCode")]
-    public virtual ChartOfAccounts Coa { get; set; } = null!;
+    public virtual Banyan.Entities.Models.accSchema.ChartOfAccounts Coa { get; set; } = null!;
 
     [InverseProperty("EventAccountCodeNavigation")]
-    public virtual ICollection<EventLines> EventLines { get; set; } = new List<EventLines>();
+    public virtual ICollection<Banyan.Entities.Models.finSchema.EventLines> EventLines { get; set; } = new List<Banyan.Entities.Models.finSchema.EventLines>();
 }

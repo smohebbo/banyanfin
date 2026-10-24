@@ -142,14 +142,14 @@ public partial class LoanProducts
     public decimal? MinShareBalanceRequired { get; set; }
 
     [InverseProperty("LoanProductNavigation")]
-    public virtual ICollection<Applications> Applications { get; set; } = new List<Applications>();
+    public virtual ICollection<Banyan.Entities.Models.lnSchema.Applications> Applications { get; set; } = new List<Banyan.Entities.Models.lnSchema.Applications>();
 
     [ForeignKey("InsurancePolicyID")]
     [InverseProperty("LoanProducts")]
     public virtual InsurancePolicy? InsurancePolicy { get; set; }
 
     [InverseProperty("LoanProduct")]
-    public virtual ICollection<LoanAccounts> LoanAccounts { get; set; } = new List<LoanAccounts>();
+    public virtual ICollection<Banyan.Entities.Models.lnSchema.LoanAccounts> LoanAccounts { get; set; } = new List<Banyan.Entities.Models.lnSchema.LoanAccounts>();
 
     [InverseProperty("LoanProduct")]
     public virtual ICollection<LoanAgeWiseLimit> LoanAgeWiseLimit { get; set; } = new List<LoanAgeWiseLimit>();

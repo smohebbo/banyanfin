@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Banyan.IOC\Banyan.IOC.csproj" />
     <ProjectReference Include="..\Banyan.Entities\Banyan.Entities.csproj" />
+    <ProjectReference Include="..\Banyan.Service\Banyan.Service.csproj" />
   </ItemGroup>
 
 </Project>

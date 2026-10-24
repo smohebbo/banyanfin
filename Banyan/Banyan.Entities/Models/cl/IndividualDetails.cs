@@ -110,7 +110,7 @@ public partial class IndividualDetails
 
     [ForeignKey("BirthPlaceDistrictID")]
     [InverseProperty("IndividualDetails")]
-    public virtual District? BirthPlaceDistrict { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.District? BirthPlaceDistrict { get; set; }
 
     [ForeignKey("ClientID")]
     [InverseProperty("IndividualDetails")]
@@ -142,11 +142,11 @@ public partial class IndividualDetails
 
     [ForeignKey("PermanentAddressID")]
     [InverseProperty("IndividualDetailsPermanentAddress")]
-    public virtual AddressBook? PermanentAddress { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? PermanentAddress { get; set; }
 
     [ForeignKey("PresentAddressID")]
     [InverseProperty("IndividualDetailsPresentAddress")]
-    public virtual AddressBook? PresentAddress { get; set; }
+    public virtual Banyan.Entities.Models.adSchema.AddressBook? PresentAddress { get; set; }
 
     [ForeignKey("ProfessionID")]
     [InverseProperty("IndividualDetails")]
