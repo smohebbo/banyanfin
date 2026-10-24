@@ -15,6 +15,8 @@ namespace Banyan.Entities.Models.clSchema
         public string? ClientName { get; set; }
         [StringLength(100)]
         public string? ClientNameBangla { get; set; }
+        [StringLength(50)]
+        public string? ClientLastName { get; set; }
         [StringLength(20)]
         public string? MobileNo { get; set; }
         [StringLength(50)]
@@ -28,6 +30,48 @@ namespace Banyan.Entities.Models.clSchema
         public DateOnly? ClientStatusEffectiveDate { get; set; }
         public DateOnly? IDIssueDate { get; set; }
         public bool IsVerified { get; set; }
+        [StringLength(50)]
+        public string? FatherName { get; set; }
+        [StringLength(50)]
+        public string? FatherNameBang { get; set; }
+        public int? FatherClientNo { get; set; }
+        [StringLength(50)]
+        public string? MotherName { get; set; }
+        [StringLength(50)]
+        public string? MotherNameBang { get; set; }
+        public int? MotherClientNo { get; set; }
+        [StringLength(150)]
+        public string? SpouseName { get; set; }
+        [StringLength(50)]
+        public string? SpouseNameBang { get; set; }
+        public int? SpouseClientNo { get; set; }
+        public byte? ProfessionID { get; set; }
+        [StringLength(1)]
+        public string? Gender { get; set; }
+        [StringLength(1)]
+        public string? Religion { get; set; }
+        [StringLength(1)]
+        public string? MaritalStatus { get; set; }
+        [StringLength(3)]
+        public string? BloodGroup { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public int? PresentAddressID { get; set; }
+        public int? PermanentAddressID { get; set; }
+        [StringLength(50)]
+        public string? EmployerName { get; set; }
+        public int? EmployerAddressID { get; set; }
+        [StringLength(50)]
+        public string? NID { get; set; }
+        [StringLength(50)]
+        public string? PassportNo { get; set; }
+        [StringLength(50)]
+        public string? TIN { get; set; }
+        public int? BirthPlaceDistrictID { get; set; }
+        [StringLength(100)]
+        public string? EducationalQualification { get; set; }
+        [StringLength(50)]
+        public string? BirthCertificateNo { get; set; }
+        public int? GuardianClientIDIfAssociate { get; set; }
         [StringLength(100)]
         public string? SignatoryName1 { get; set; }
         [StringLength(100)]

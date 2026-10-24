@@ -18,5 +18,7 @@ public static void RegisterMCCCULServiceInstance(this IServiceCollection service
             options.UseSqlServer(connectionString, sqlOptions => sqlOptions.UseNetTopologySuite()));
         services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
         services.AddScoped<IAuthenticationService, AuthenticationService>();
+        services.AddScoped<IClientRepository, ClientRepository>();
+        services.AddScoped<IClientService, ClientService>();
     }
 }

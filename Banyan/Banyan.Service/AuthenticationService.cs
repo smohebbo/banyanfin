@@ -1,3 +1,4 @@
+using Banyan.Entities.Models;
 using Banyan.Entities.viewModel;
 using Banyan.Repository.Models;
 
@@ -36,8 +37,10 @@ public sealed class AuthenticationService : IAuthenticationService
 
         return new UserSession
         {
+            ID = 1,
             UserId = loginViewModel.UserId,
             Token = Convert.ToBase64String(token),
+            SecretKey = loginViewModel.SecretKey,
             RolePrivileges = null
         };
     }
